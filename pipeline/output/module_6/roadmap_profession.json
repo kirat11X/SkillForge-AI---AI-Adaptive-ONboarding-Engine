@@ -1,0 +1,644 @@
+{
+  "track_type": "profession_mapping",
+  "title": "Candidate Best-Fit Profession Roadmap: AI Engineer",
+  "view_label": "Candidate Best-Fit Role View",
+  "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
+  "role": "AI Engineer",
+  "target_role": "AI Engineer",
+  "candidate_best_fit_role": "AI Engineer",
+  "target_jd_role": null,
+  "top_role": {
+    "role": "AI Engineer",
+    "score": 0.3421,
+    "base_similarity": 0.3618,
+    "prior": 0.72,
+    "prior_scale": 0.8836,
+    "level": "mid",
+    "level_bias": 0.85,
+    "core_overlap_boost": 0.06,
+    "missing_core_penalty": 0.062,
+    "missing_core_score_scale": 0.86,
+    "overlap_count": 3,
+    "matched_skills": [
+      "python",
+      "computer vision",
+      "machine learning",
+      "rag",
+      "llms",
+      "embeddings",
+      "nlp"
+    ],
+    "core_skills_found": [
+      "machine learning",
+      "python",
+      "llms"
+    ],
+    "missing_core_skills": [
+      "deep learning",
+      "pytorch"
+    ],
+    "missing_skills": [
+      "deep learning",
+      "pytorch",
+      "transformers",
+      "mlops",
+      "tensorflow",
+      "evaluation"
+    ],
+    "why_this_role": [
+      "strong Python and model-building alignment",
+      "good fit for applied AI and deployment"
+    ],
+    "reason": "strong Python and model-building alignment; good fit for applied AI and deployment Strong match because the candidate shows core technical alignment in machine learning, python, llms. You may improve your fit by learning deep learning, pytorch."
+  },
+  "__meta__": {
+    "gap_skill_count": 6,
+    "focus_skill_count": 6,
+    "support_skill_count": 3,
+    "relevant_graph_nodes": 8,
+    "relevant_graph_edges": 7,
+    "known_skill_threshold": 0.25,
+    "min_target_gap": 0.6,
+    "maximum_named_resources": 3,
+    "suppressed_direct_target_count": 0
+  },
+  "roadmap": [
+    "deep learning",
+    "mlops",
+    "evaluation",
+    "pytorch",
+    "tensorflow",
+    "transformers"
+  ],
+  "roadmap_details": [
+    {
+      "skill": "deep learning",
+      "priority": 42.1594,
+      "effective_gap": 3.0842,
+      "direct_gap": 3.0842,
+      "jd_importance": 3.5469,
+      "difficulty": 0.5435,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [
+        "pytorch",
+        "tensorflow",
+        "transformers"
+      ],
+      "unlocks": [
+        "tensorflow",
+        "pytorch",
+        "transformers"
+      ],
+      "resources": [
+        {
+          "title": "DeepLearning.AI Neural Networks and Deep Learning",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "Dive into Deep Learning",
+          "type": "book",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high; prerequisite for pytorch, tensorflow; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "mlops",
+      "priority": 10.1698,
+      "effective_gap": 2.6216,
+      "direct_gap": 2.6216,
+      "jd_importance": 2.7527,
+      "difficulty": 0.6096,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Made With ML: MLOps",
+          "type": "course",
+          "level": "intermediate"
+        },
+        {
+          "title": "Full Stack Deep Learning MLOps",
+          "type": "course",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "evaluation",
+      "priority": 7.4907,
+      "effective_gap": 2.4674,
+      "direct_gap": 2.4674,
+      "jd_importance": 2.5908,
+      "difficulty": 0.7534,
+      "dependency_weight": 1.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Google ML Crash Course: Classification and Metrics",
+          "type": "course",
+          "level": "beginner"
+        },
+        {
+          "title": "DeepLearning.AI Evaluating and Debugging Generative AI",
+          "type": "course",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high",
+      "phase": "Phase 1"
+    },
+    {
+      "skill": "pytorch",
+      "priority": 27.8426,
+      "effective_gap": 2.7758,
+      "direct_gap": 2.7758,
+      "jd_importance": 3.1922,
+      "difficulty": 0.5365,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "PyTorch Tutorials",
+          "type": "tutorial",
+          "level": "beginner"
+        },
+        {
+          "title": "PyTorch 60 Minute Blitz",
+          "type": "tutorial",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+      "phase": "Phase 2"
+    },
+    {
+      "skill": "tensorflow",
+      "priority": 23.4111,
+      "effective_gap": 2.6216,
+      "direct_gap": 2.6216,
+      "jd_importance": 2.7527,
+      "difficulty": 0.5165,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "TensorFlow Tutorials",
+          "type": "tutorial",
+          "level": "beginner"
+        },
+        {
+          "title": "TensorFlow Guide",
+          "type": "reference",
+          "level": "beginner"
+        }
+      ],
+      "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+      "phase": "Phase 2"
+    },
+    {
+      "skill": "transformers",
+      "priority": 18.1154,
+      "effective_gap": 2.7758,
+      "direct_gap": 2.7758,
+      "jd_importance": 2.9146,
+      "difficulty": 0.7932,
+      "dependency_weight": 2.0,
+      "candidate_signal": 0.0,
+      "blocking_targets": [],
+      "unlocks": [],
+      "resources": [
+        {
+          "title": "Hugging Face Course",
+          "type": "course",
+          "level": "intermediate"
+        },
+        {
+          "title": "The Illustrated Transformer",
+          "type": "article",
+          "level": "intermediate"
+        }
+      ],
+      "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+      "phase": "Phase 2"
+    }
+  ],
+  "roadmap_phases": [
+    {
+      "phase": "Phase 1",
+      "skills": [
+        {
+          "skill": "deep learning",
+          "priority": 42.1594,
+          "effective_gap": 3.0842,
+          "direct_gap": 3.0842,
+          "jd_importance": 3.5469,
+          "difficulty": 0.5435,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "pytorch",
+            "tensorflow",
+            "transformers"
+          ],
+          "unlocks": [
+            "tensorflow",
+            "pytorch",
+            "transformers"
+          ],
+          "resources": [
+            {
+              "title": "DeepLearning.AI Neural Networks and Deep Learning",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "Dive into Deep Learning",
+              "type": "book",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for pytorch, tensorflow; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "mlops",
+          "priority": 10.1698,
+          "effective_gap": 2.6216,
+          "direct_gap": 2.6216,
+          "jd_importance": 2.7527,
+          "difficulty": 0.6096,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Made With ML: MLOps",
+              "type": "course",
+              "level": "intermediate"
+            },
+            {
+              "title": "Full Stack Deep Learning MLOps",
+              "type": "course",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "evaluation",
+          "priority": 7.4907,
+          "effective_gap": 2.4674,
+          "direct_gap": 2.4674,
+          "jd_importance": 2.5908,
+          "difficulty": 0.7534,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Google ML Crash Course: Classification and Metrics",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "DeepLearning.AI Evaluating and Debugging Generative AI",
+              "type": "course",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 1"
+        }
+      ]
+    },
+    {
+      "phase": "Phase 2",
+      "skills": [
+        {
+          "skill": "pytorch",
+          "priority": 27.8426,
+          "effective_gap": 2.7758,
+          "direct_gap": 2.7758,
+          "jd_importance": 3.1922,
+          "difficulty": 0.5365,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "PyTorch Tutorials",
+              "type": "tutorial",
+              "level": "beginner"
+            },
+            {
+              "title": "PyTorch 60 Minute Blitz",
+              "type": "tutorial",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        },
+        {
+          "skill": "tensorflow",
+          "priority": 23.4111,
+          "effective_gap": 2.6216,
+          "direct_gap": 2.6216,
+          "jd_importance": 2.7527,
+          "difficulty": 0.5165,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "TensorFlow Tutorials",
+              "type": "tutorial",
+              "level": "beginner"
+            },
+            {
+              "title": "TensorFlow Guide",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        },
+        {
+          "skill": "transformers",
+          "priority": 18.1154,
+          "effective_gap": 2.7758,
+          "direct_gap": 2.7758,
+          "jd_importance": 2.9146,
+          "difficulty": 0.7932,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Hugging Face Course",
+              "type": "course",
+              "level": "intermediate"
+            },
+            {
+              "title": "The Illustrated Transformer",
+              "type": "article",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        }
+      ]
+    }
+  ],
+  "next_steps": [
+    "deep learning",
+    "mlops",
+    "evaluation"
+  ],
+  "direct_targets": [
+    {
+      "skill": "deep learning",
+      "gap": 3.0842,
+      "importance": 3.5469,
+      "resume_score": 0.0,
+      "jd_score": 3.0842,
+      "raw_importance": 3.0842,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "pytorch",
+      "gap": 2.7758,
+      "importance": 3.1922,
+      "resume_score": 0.0,
+      "jd_score": 2.7758,
+      "raw_importance": 2.7758,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "transformers",
+      "gap": 2.7758,
+      "importance": 2.9146,
+      "resume_score": 0.0,
+      "jd_score": 2.7758,
+      "raw_importance": 2.7758,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "mlops",
+      "gap": 2.6216,
+      "importance": 2.7527,
+      "resume_score": 0.0,
+      "jd_score": 2.6216,
+      "raw_importance": 2.6216,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "tensorflow",
+      "gap": 2.6216,
+      "importance": 2.7527,
+      "resume_score": 0.0,
+      "jd_score": 2.6216,
+      "raw_importance": 2.6216,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    },
+    {
+      "skill": "evaluation",
+      "gap": 2.4674,
+      "importance": 2.5908,
+      "resume_score": 0.0,
+      "jd_score": 2.4674,
+      "raw_importance": 2.4674,
+      "priority_penalty": 1.0,
+      "level": "mid",
+      "action": "profession priority",
+      "category": "profession_mapping",
+      "gap_reason": "direct role gap is high"
+    }
+  ],
+  "suppressed_direct_targets": [],
+  "deferred_targets": [],
+  "graph": {
+    "nodes": [
+      {
+        "id": "mlops",
+        "data": {
+          "label": "mlops",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.6096,
+          "priority": 10.1698,
+          "title": "Made With ML: MLOps<br>Full Stack Deep Learning MLOps"
+        }
+      },
+      {
+        "id": "tensorflow",
+        "data": {
+          "label": "tensorflow",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.5165,
+          "priority": 23.4111,
+          "title": "TensorFlow Tutorials<br>TensorFlow Guide"
+        }
+      },
+      {
+        "id": "evaluation",
+        "data": {
+          "label": "evaluation",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.7534,
+          "priority": 7.4907,
+          "title": "Google ML Crash Course: Classification and Metrics<br>DeepLearning.AI Evaluating and Debugging Generative AI"
+        }
+      },
+      {
+        "id": "pytorch",
+        "data": {
+          "label": "pytorch",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.5365,
+          "priority": 27.8426,
+          "title": "PyTorch Tutorials<br>PyTorch 60 Minute Blitz"
+        }
+      },
+      {
+        "id": "transformers",
+        "data": {
+          "label": "transformers",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.7932,
+          "priority": 18.1154,
+          "title": "Hugging Face Course<br>The Illustrated Transformer"
+        }
+      },
+      {
+        "id": "machine learning",
+        "data": {
+          "label": "machine learning",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.5442,
+          "priority": 0.0,
+          "title": "Google Machine Learning Crash Course<br>Hands-On Machine Learning"
+        }
+      },
+      {
+        "id": "python",
+        "data": {
+          "label": "python",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.3348,
+          "priority": 0.0,
+          "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
+        }
+      },
+      {
+        "id": "deep learning",
+        "data": {
+          "label": "deep learning",
+          "status": "next_step",
+          "color": "yellow",
+          "size": 30,
+          "difficulty": 0.5435,
+          "priority": 42.1594,
+          "title": "DeepLearning.AI Neural Networks and Deep Learning<br>Dive into Deep Learning"
+        }
+      }
+    ],
+    "edges": [
+      {
+        "source": "machine learning",
+        "target": "evaluation",
+        "weight": 1.0
+      },
+      {
+        "source": "machine learning",
+        "target": "deep learning",
+        "weight": 2.0
+      },
+      {
+        "source": "machine learning",
+        "target": "mlops",
+        "weight": 1.0
+      },
+      {
+        "source": "python",
+        "target": "machine learning",
+        "weight": 3.0
+      },
+      {
+        "source": "deep learning",
+        "target": "tensorflow",
+        "weight": 2.0
+      },
+      {
+        "source": "deep learning",
+        "target": "pytorch",
+        "weight": 2.0
+      },
+      {
+        "source": "deep learning",
+        "target": "transformers",
+        "weight": 2.0
+      }
+    ],
+    "meta": {
+      "node_count": 8,
+      "edge_count": 7,
+      "roadmap_node_count": 6
+    }
+  }
+}
