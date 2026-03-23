@@ -2,61 +2,64 @@
   "__meta__": {
     "known_skill_threshold": 0.25,
     "min_target_gap": 0.6,
-    "top_role": "BI Developer",
-    "candidate_best_fit_role": "BI Developer",
+    "top_role": "Software Engineer",
+    "candidate_best_fit_role": "Software Engineer",
     "target_jd_role": null,
-    "profession_roadmap_count": 1,
+    "profession_roadmap_count": 3,
     "primary_track_type": "jd_requirement",
     "recommended_track_type": "jd_requirement",
     "secondary_track_type": "profession_mapping",
     "track_selection_reason": "Primary roadmap favors JD alignment first whenever direct JD gap evidence is available.",
-    "roadmap_selection_policy": "jd_dominant_role_supported"
+    "roadmap_selection_policy": "jd_dominant_role_supported",
+    "graph_output_dir": "output/module_6/Graphs"
   },
-  "candidate_best_fit_role": "BI Developer",
+  "candidate_best_fit_role": "Software Engineer",
   "target_jd_role": null,
   "recommended_track_type": "jd_requirement",
   "secondary_track_type": "profession_mapping",
   "track_selection_reason": "Primary roadmap favors JD alignment first whenever direct JD gap evidence is available.",
   "roadmap_selection_policy": "jd_dominant_role_supported",
   "top_role": {
-    "role": "BI Developer",
-    "score": 0.1646,
-    "base_similarity": 0.2146,
-    "prior": 0.86,
-    "prior_scale": 0.9193,
-    "level": "mid",
-    "level_bias": 0.85,
-    "core_overlap_boost": 0.0,
-    "missing_core_penalty": 0.124,
-    "missing_core_score_scale": 0.8,
-    "overlap_count": 1,
+    "role": "Software Engineer",
+    "score": 0.5778,
+    "base_similarity": 0.5572,
+    "prior": 0.84,
+    "prior_scale": 0.952,
+    "level": "entry",
+    "level_bias": 1.0,
+    "core_overlap_boost": 0.06,
+    "missing_core_penalty": 0.031,
+    "missing_core_score_scale": 0.93,
+    "overlap_count": 4,
     "matched_skills": [
-      "sql",
-      "excel",
-      "reporting"
+      "java",
+      "python",
+      "automation",
+      "git",
+      "linux",
+      "debugging",
+      "c",
+      "c++"
     ],
     "core_skills_found": [
-      "sql"
+      "java",
+      "debugging",
+      "git",
+      "automation"
     ],
     "missing_core_skills": [
-      "business intelligence",
-      "power bi",
-      "dashboarding",
-      "data visualization"
+      "system design"
     ],
     "missing_skills": [
-      "business intelligence",
-      "power bi",
-      "dashboarding",
-      "data visualization",
-      "tableau",
-      "analytics"
+      "system design",
+      "software architecture",
+      "apis"
     ],
     "why_this_role": [
-      "strong reporting and dashboard alignment",
-      "good fit for SQL and visualization-heavy work"
+      "strong coding and debugging alignment",
+      "good fit for general software engineering pathways"
     ],
-    "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
+    "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
   },
   "jd_requirement_roadmap": {
     "track_type": "jd_requirement",
@@ -65,129 +68,124 @@
     "view_purpose": "This roadmap shows the most connected prerequisites for closing the target JD gaps.",
     "role": null,
     "target_role": null,
-    "candidate_best_fit_role": "BI Developer",
+    "candidate_best_fit_role": "Software Engineer",
     "target_jd_role": null,
     "top_role": {
-      "role": "BI Developer",
-      "score": 0.1646,
-      "base_similarity": 0.2146,
-      "prior": 0.86,
-      "prior_scale": 0.9193,
-      "level": "mid",
-      "level_bias": 0.85,
-      "core_overlap_boost": 0.0,
-      "missing_core_penalty": 0.124,
-      "missing_core_score_scale": 0.8,
-      "overlap_count": 1,
+      "role": "Software Engineer",
+      "score": 0.5778,
+      "base_similarity": 0.5572,
+      "prior": 0.84,
+      "prior_scale": 0.952,
+      "level": "entry",
+      "level_bias": 1.0,
+      "core_overlap_boost": 0.06,
+      "missing_core_penalty": 0.031,
+      "missing_core_score_scale": 0.93,
+      "overlap_count": 4,
       "matched_skills": [
-        "sql",
-        "excel",
-        "reporting"
+        "java",
+        "python",
+        "automation",
+        "git",
+        "linux",
+        "debugging",
+        "c",
+        "c++"
       ],
       "core_skills_found": [
-        "sql"
+        "java",
+        "debugging",
+        "git",
+        "automation"
       ],
       "missing_core_skills": [
-        "business intelligence",
-        "power bi",
-        "dashboarding",
-        "data visualization"
+        "system design"
       ],
       "missing_skills": [
-        "business intelligence",
-        "power bi",
-        "dashboarding",
-        "data visualization",
-        "tableau",
-        "analytics"
+        "system design",
+        "software architecture",
+        "apis"
       ],
       "why_this_role": [
-        "strong reporting and dashboard alignment",
-        "good fit for SQL and visualization-heavy work"
+        "strong coding and debugging alignment",
+        "good fit for general software engineering pathways"
       ],
-      "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
+      "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
     },
     "__meta__": {
       "gap_skill_count": 6,
       "focus_skill_count": 6,
-      "support_skill_count": 4,
-      "relevant_graph_nodes": 10,
-      "relevant_graph_edges": 6,
+      "support_skill_count": 8,
+      "relevant_graph_nodes": 14,
+      "relevant_graph_edges": 2,
       "known_skill_threshold": 0.25,
       "min_target_gap": 0.6,
       "maximum_named_resources": 3,
-      "suppressed_direct_target_count": 7
+      "suppressed_direct_target_count": 5
     },
     "roadmap": [
-      "python",
-      "statistics",
+      "machine learning",
+      "llms",
       "computer graphics",
       "cuda",
       "large language models",
-      "machine learning",
       "deep learning"
     ],
     "roadmap_details": [
       {
-        "skill": "python",
-        "priority": 145.2732,
-        "effective_gap": 4.7268,
-        "direct_gap": 0.9886,
-        "jd_importance": 5.3333,
-        "difficulty": 0.3348,
+        "skill": "machine learning",
+        "priority": 155.5301,
+        "effective_gap": 5.5609,
+        "direct_gap": 5.3333,
+        "jd_importance": 5.5609,
+        "difficulty": 0.5442,
         "dependency_weight": 3.0,
-        "candidate_signal": 0.307,
+        "candidate_signal": 0.0,
         "blocking_targets": [
-          "machine learning",
           "deep learning"
         ],
         "unlocks": [
-          "machine learning"
+          "deep learning"
         ],
         "resources": [
           {
-            "title": "Python Official Tutorial",
-            "type": "reference",
+            "title": "Google Machine Learning Crash Course",
+            "type": "course",
             "level": "beginner"
           },
           {
-            "title": "Automate the Boring Stuff with Python",
-            "type": "course",
-            "level": "beginner"
+            "title": "Hands-On Machine Learning",
+            "type": "book",
+            "level": "intermediate"
           }
         ],
-        "reason": "JD still expects deeper strength than the current evidence; prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong; candidate already shows baseline evidence",
+        "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
         "phase": "Phase 1"
       },
       {
-        "skill": "statistics",
-        "priority": 72.4433,
-        "effective_gap": 4.7268,
-        "direct_gap": 0.0,
-        "jd_importance": 5.3333,
-        "difficulty": 0.6266,
-        "dependency_weight": 2.0,
+        "skill": "llms",
+        "priority": 40.2555,
+        "effective_gap": 5.9691,
+        "direct_gap": 5.9691,
+        "jd_importance": 5.9691,
+        "difficulty": 0.7851,
+        "dependency_weight": 1.0,
         "candidate_signal": 0.0,
-        "blocking_targets": [
-          "machine learning",
-          "deep learning"
-        ],
-        "unlocks": [
-          "machine learning"
-        ],
+        "blocking_targets": [],
+        "unlocks": [],
         "resources": [
           {
-            "title": "Khan Academy Statistics and Probability",
+            "title": "LLMs Learning Path",
             "type": "course",
             "level": "beginner"
           },
           {
-            "title": "StatQuest Statistics Fundamentals",
-            "type": "video",
+            "title": "LLMs Hands-on Practice",
+            "type": "practice",
             "level": "beginner"
           }
         ],
-        "reason": "prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+        "reason": "direct JD gap is high; JD importance is strong",
         "phase": "Phase 1"
       },
       {
@@ -269,36 +267,6 @@
         "phase": "Phase 1"
       },
       {
-        "skill": "machine learning",
-        "priority": 155.5301,
-        "effective_gap": 5.5609,
-        "direct_gap": 4.0373,
-        "jd_importance": 5.5609,
-        "difficulty": 0.5442,
-        "dependency_weight": 3.0,
-        "candidate_signal": 0.2142,
-        "blocking_targets": [
-          "deep learning"
-        ],
-        "unlocks": [
-          "deep learning"
-        ],
-        "resources": [
-          {
-            "title": "Google Machine Learning Crash Course",
-            "type": "course",
-            "level": "beginner"
-          },
-          {
-            "title": "Hands-On Machine Learning",
-            "type": "book",
-            "level": "intermediate"
-          }
-        ],
-        "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-        "phase": "Phase 2"
-      },
-      {
         "skill": "deep learning",
         "priority": 96.1107,
         "effective_gap": 5.5609,
@@ -322,7 +290,7 @@
           }
         ],
         "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-        "phase": "Phase 3"
+        "phase": "Phase 2"
       }
     ],
     "roadmap_phases": [
@@ -330,65 +298,59 @@
         "phase": "Phase 1",
         "skills": [
           {
-            "skill": "python",
-            "priority": 145.2732,
-            "effective_gap": 4.7268,
-            "direct_gap": 0.9886,
-            "jd_importance": 5.3333,
-            "difficulty": 0.3348,
+            "skill": "machine learning",
+            "priority": 155.5301,
+            "effective_gap": 5.5609,
+            "direct_gap": 5.3333,
+            "jd_importance": 5.5609,
+            "difficulty": 0.5442,
             "dependency_weight": 3.0,
-            "candidate_signal": 0.307,
+            "candidate_signal": 0.0,
             "blocking_targets": [
-              "machine learning",
               "deep learning"
             ],
             "unlocks": [
-              "machine learning"
+              "deep learning"
             ],
             "resources": [
               {
-                "title": "Python Official Tutorial",
-                "type": "reference",
+                "title": "Google Machine Learning Crash Course",
+                "type": "course",
                 "level": "beginner"
               },
               {
-                "title": "Automate the Boring Stuff with Python",
-                "type": "course",
-                "level": "beginner"
+                "title": "Hands-On Machine Learning",
+                "type": "book",
+                "level": "intermediate"
               }
             ],
-            "reason": "JD still expects deeper strength than the current evidence; prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong; candidate already shows baseline evidence",
+            "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
             "phase": "Phase 1"
           },
           {
-            "skill": "statistics",
-            "priority": 72.4433,
-            "effective_gap": 4.7268,
-            "direct_gap": 0.0,
-            "jd_importance": 5.3333,
-            "difficulty": 0.6266,
-            "dependency_weight": 2.0,
+            "skill": "llms",
+            "priority": 40.2555,
+            "effective_gap": 5.9691,
+            "direct_gap": 5.9691,
+            "jd_importance": 5.9691,
+            "difficulty": 0.7851,
+            "dependency_weight": 1.0,
             "candidate_signal": 0.0,
-            "blocking_targets": [
-              "machine learning",
-              "deep learning"
-            ],
-            "unlocks": [
-              "machine learning"
-            ],
+            "blocking_targets": [],
+            "unlocks": [],
             "resources": [
               {
-                "title": "Khan Academy Statistics and Probability",
+                "title": "LLMs Learning Path",
                 "type": "course",
                 "level": "beginner"
               },
               {
-                "title": "StatQuest Statistics Fundamentals",
-                "type": "video",
+                "title": "LLMs Hands-on Practice",
+                "type": "practice",
                 "level": "beginner"
               }
             ],
-            "reason": "prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+            "reason": "direct JD gap is high; JD importance is strong",
             "phase": "Phase 1"
           },
           {
@@ -475,41 +437,6 @@
         "phase": "Phase 2",
         "skills": [
           {
-            "skill": "machine learning",
-            "priority": 155.5301,
-            "effective_gap": 5.5609,
-            "direct_gap": 4.0373,
-            "jd_importance": 5.5609,
-            "difficulty": 0.5442,
-            "dependency_weight": 3.0,
-            "candidate_signal": 0.2142,
-            "blocking_targets": [
-              "deep learning"
-            ],
-            "unlocks": [
-              "deep learning"
-            ],
-            "resources": [
-              {
-                "title": "Google Machine Learning Crash Course",
-                "type": "course",
-                "level": "beginner"
-              },
-              {
-                "title": "Hands-On Machine Learning",
-                "type": "book",
-                "level": "intermediate"
-              }
-            ],
-            "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-            "phase": "Phase 2"
-          }
-        ]
-      },
-      {
-        "phase": "Phase 3",
-        "skills": [
-          {
             "skill": "deep learning",
             "priority": 96.1107,
             "effective_gap": 5.5609,
@@ -533,14 +460,13 @@
               }
             ],
             "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-            "phase": "Phase 3"
+            "phase": "Phase 2"
           }
         ]
       }
     ],
     "next_steps": [
-      "machine learning",
-      "statistics"
+      "machine learning"
     ],
     "direct_targets": [
       {
@@ -589,6 +515,21 @@
         "gap_reason": "direct JD gap is high"
       },
       {
+        "skill": "llms",
+        "gap": 5.9691,
+        "importance": 5.9691,
+        "resume_score": 0.0,
+        "jd_score": 5.9691,
+        "raw_importance": 5.9691,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Machine Learning",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high"
+      },
+      {
         "skill": "deep learning",
         "gap": 5.5609,
         "importance": 5.5609,
@@ -605,9 +546,9 @@
       },
       {
         "skill": "machine learning",
-        "gap": 4.0373,
+        "gap": 5.3333,
         "importance": 5.3333,
-        "resume_score": 1.296,
+        "resume_score": 0.0,
         "jd_score": 5.3333,
         "raw_importance": 5.3333,
         "priority_penalty": 1.0,
@@ -615,42 +556,11 @@
         "action": "important",
         "category": "hard_skill",
         "taxonomy_category": "Machine Learning",
-        "candidate_signal": 0.2142,
+        "candidate_signal": 0.0,
         "gap_reason": "direct JD gap is high"
-      },
-      {
-        "skill": "python",
-        "gap": 0.9886,
-        "importance": 5.1346,
-        "resume_score": 2.3101,
-        "jd_score": 5.1346,
-        "raw_importance": 5.1346,
-        "priority_penalty": 1.0,
-        "level": "Slight Gap",
-        "action": "low priority",
-        "category": "hard_skill",
-        "taxonomy_category": "Programming",
-        "candidate_signal": 0.307,
-        "gap_reason": "JD still expects deeper strength than the current evidence"
       }
     ],
     "suppressed_direct_targets": [
-      {
-        "skill": "llms",
-        "gap": 5.9691,
-        "importance": 5.9691,
-        "resume_score": 0.0,
-        "jd_score": 5.9691,
-        "raw_importance": 5.9691,
-        "priority_penalty": 1.0,
-        "level": "Moderate Gap",
-        "action": "important",
-        "category": "hard_skill",
-        "taxonomy_category": "Machine Learning",
-        "candidate_signal": 0.0,
-        "gap_reason": "direct JD gap is high",
-        "suppressed_reason": "not connected to the candidate support graph"
-      },
       {
         "skill": "tensorrt",
         "gap": 5.9691,
@@ -663,38 +573,6 @@
         "action": "important",
         "category": "hard_skill",
         "taxonomy_category": "Machine Learning",
-        "candidate_signal": 0.0,
-        "gap_reason": "direct JD gap is high",
-        "suppressed_reason": "not connected to the candidate support graph"
-      },
-      {
-        "skill": "c",
-        "gap": 5.8122,
-        "importance": 5.8122,
-        "resume_score": 0.0,
-        "jd_score": 5.8122,
-        "raw_importance": 5.8122,
-        "priority_penalty": 1.0,
-        "level": "Moderate Gap",
-        "action": "important",
-        "category": "hard_skill",
-        "taxonomy_category": "Programming",
-        "candidate_signal": 0.0,
-        "gap_reason": "direct JD gap is high",
-        "suppressed_reason": "not connected to the candidate support graph"
-      },
-      {
-        "skill": "linux",
-        "gap": 5.6752,
-        "importance": 5.6752,
-        "resume_score": 0.0,
-        "jd_score": 5.6752,
-        "raw_importance": 5.6752,
-        "priority_penalty": 1.0,
-        "level": "Moderate Gap",
-        "action": "important",
-        "category": "hard_skill",
-        "taxonomy_category": "Systems",
         "candidate_signal": 0.0,
         "gap_reason": "direct JD gap is high",
         "suppressed_reason": "not connected to the candidate support graph"
@@ -713,27 +591,59 @@
         "taxonomy_category": "Mobile",
         "candidate_signal": 0.0,
         "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "operating systems",
+        "gap": 5.2655,
+        "importance": 5.2655,
+        "resume_score": 0.0,
+        "jd_score": 5.2655,
+        "raw_importance": 5.2655,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Systems",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "signal processing",
+        "gap": 5.2655,
+        "importance": 5.2655,
+        "resume_score": 0.0,
+        "jd_score": 5.2655,
+        "raw_importance": 5.2655,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Hardware",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "c",
+        "gap": 1.3539,
+        "importance": 5.8122,
+        "resume_score": 1.944,
+        "jd_score": 5.8122,
+        "raw_importance": 5.8122,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Programming",
+        "candidate_signal": 0.252,
+        "gap_reason": "JD still expects deeper strength than the current evidence",
         "suppressed_reason": "not connected to the candidate support graph"
       }
     ],
     "deferred_targets": [
       {
-        "skill": "llms",
-        "gap": 5.9691,
-        "importance": 5.9691,
-        "resume_score": 0.0,
-        "jd_score": 5.9691,
-        "raw_importance": 5.9691,
-        "priority_penalty": 1.0,
-        "level": "Moderate Gap",
-        "action": "important",
-        "category": "hard_skill",
-        "taxonomy_category": "Machine Learning",
-        "candidate_signal": 0.0,
-        "gap_reason": "direct JD gap is high",
-        "suppressed_reason": "not connected to the candidate support graph"
-      },
-      {
         "skill": "tensorrt",
         "gap": 5.9691,
         "importance": 5.9691,
@@ -745,38 +655,6 @@
         "action": "important",
         "category": "hard_skill",
         "taxonomy_category": "Machine Learning",
-        "candidate_signal": 0.0,
-        "gap_reason": "direct JD gap is high",
-        "suppressed_reason": "not connected to the candidate support graph"
-      },
-      {
-        "skill": "c",
-        "gap": 5.8122,
-        "importance": 5.8122,
-        "resume_score": 0.0,
-        "jd_score": 5.8122,
-        "raw_importance": 5.8122,
-        "priority_penalty": 1.0,
-        "level": "Moderate Gap",
-        "action": "important",
-        "category": "hard_skill",
-        "taxonomy_category": "Programming",
-        "candidate_signal": 0.0,
-        "gap_reason": "direct JD gap is high",
-        "suppressed_reason": "not connected to the candidate support graph"
-      },
-      {
-        "skill": "linux",
-        "gap": 5.6752,
-        "importance": 5.6752,
-        "resume_score": 0.0,
-        "jd_score": 5.6752,
-        "raw_importance": 5.6752,
-        "priority_penalty": 1.0,
-        "level": "Moderate Gap",
-        "action": "important",
-        "category": "hard_skill",
-        "taxonomy_category": "Systems",
         "candidate_signal": 0.0,
         "gap_reason": "direct JD gap is high",
         "suppressed_reason": "not connected to the candidate support graph"
@@ -796,10 +674,70 @@
         "candidate_signal": 0.0,
         "gap_reason": "direct JD gap is high",
         "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "operating systems",
+        "gap": 5.2655,
+        "importance": 5.2655,
+        "resume_score": 0.0,
+        "jd_score": 5.2655,
+        "raw_importance": 5.2655,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Systems",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "signal processing",
+        "gap": 5.2655,
+        "importance": 5.2655,
+        "resume_score": 0.0,
+        "jd_score": 5.2655,
+        "raw_importance": 5.2655,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Hardware",
+        "candidate_signal": 0.0,
+        "gap_reason": "direct JD gap is high",
+        "suppressed_reason": "not connected to the candidate support graph"
+      },
+      {
+        "skill": "c",
+        "gap": 1.3539,
+        "importance": 5.8122,
+        "resume_score": 1.944,
+        "jd_score": 5.8122,
+        "raw_importance": 5.8122,
+        "priority_penalty": 1.0,
+        "level": "Moderate Gap",
+        "action": "important",
+        "category": "hard_skill",
+        "taxonomy_category": "Programming",
+        "candidate_signal": 0.252,
+        "gap_reason": "JD still expects deeper strength than the current evidence",
+        "suppressed_reason": "not connected to the candidate support graph"
       }
     ],
     "graph": {
       "nodes": [
+        {
+          "id": "linux",
+          "data": {
+            "label": "linux",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.3304,
+            "priority": 0.0,
+            "title": "Linux Journey<br>OverTheWire Bandit"
+          }
+        },
         {
           "id": "computer graphics",
           "data": {
@@ -813,75 +751,39 @@
           }
         },
         {
-          "id": "cuda",
+          "id": "java",
           "data": {
-            "label": "cuda",
-            "status": "missing",
-            "color": "red",
-            "size": 34,
-            "difficulty": 1.0,
-            "priority": 32.391,
-            "title": "CUDA Documentation<br>CUDA Guided Practice"
+            "label": "java",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.5951,
+            "priority": 0.0,
+            "title": "Dev.java Tutorials<br>Java Programming MOOC"
           }
         },
         {
           "id": "python",
           "data": {
             "label": "python",
-            "status": "missing",
-            "color": "red",
-            "size": 34,
+            "status": "known",
+            "color": "green",
+            "size": 24,
             "difficulty": 0.3348,
-            "priority": 145.2732,
+            "priority": 0.0,
             "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
           }
         },
         {
-          "id": "sql",
+          "id": "git",
           "data": {
-            "label": "sql",
+            "label": "git",
             "status": "known",
             "color": "green",
             "size": 24,
-            "difficulty": 0.4315,
+            "difficulty": 0.4357,
             "priority": 0.0,
-            "title": "SQLBolt<br>Mode SQL Tutorial"
-          }
-        },
-        {
-          "id": "large language models",
-          "data": {
-            "label": "large language models",
-            "status": "missing",
-            "color": "red",
-            "size": 34,
-            "difficulty": 1.0,
-            "priority": 32.391,
-            "title": "Large Language Models Learning Path<br>Large Language Models Hands-on Practice"
-          }
-        },
-        {
-          "id": "deep learning",
-          "data": {
-            "label": "deep learning",
-            "status": "missing",
-            "color": "red",
-            "size": 34,
-            "difficulty": 0.5435,
-            "priority": 96.1107,
-            "title": "DeepLearning.AI Neural Networks and Deep Learning<br>Dive into Deep Learning"
-          }
-        },
-        {
-          "id": "statistics",
-          "data": {
-            "label": "statistics",
-            "status": "next_step",
-            "color": "yellow",
-            "size": 30,
-            "difficulty": 0.6266,
-            "priority": 72.4433,
-            "title": "Khan Academy Statistics and Probability<br>StatQuest Statistics Fundamentals"
+            "title": "Pro Git Book<br>Git SCM Documentation"
           }
         },
         {
@@ -897,294 +799,656 @@
           }
         },
         {
-          "id": "numpy",
+          "id": "large language models",
           "data": {
-            "label": "numpy",
-            "status": "known",
-            "color": "green",
-            "size": 24,
-            "difficulty": 1.2768,
-            "priority": 0.0,
-            "title": "NumPy Documentation<br>SciPy Lectures: NumPy"
+            "label": "large language models",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 1.0,
+            "priority": 32.391,
+            "title": "Large Language Models Learning Path<br>Large Language Models Hands-on Practice"
           }
         },
         {
-          "id": "pandas",
+          "id": "cuda",
           "data": {
-            "label": "pandas",
+            "label": "cuda",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 1.0,
+            "priority": 32.391,
+            "title": "CUDA Documentation<br>CUDA Guided Practice"
+          }
+        },
+        {
+          "id": "debugging",
+          "data": {
+            "label": "debugging",
             "status": "known",
             "color": "green",
             "size": 24,
-            "difficulty": 0.7636,
+            "difficulty": 0.4494,
             "priority": 0.0,
-            "title": "Kaggle Pandas<br>Pandas User Guide"
+            "title": "The Debugging Book<br>VS Code Debugging Guide"
+          }
+        },
+        {
+          "id": "deep learning",
+          "data": {
+            "label": "deep learning",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 0.5435,
+            "priority": 96.1107,
+            "title": "DeepLearning.AI Neural Networks and Deep Learning<br>Dive into Deep Learning"
+          }
+        },
+        {
+          "id": "llms",
+          "data": {
+            "label": "llms",
+            "status": "missing",
+            "color": "red",
+            "size": 34,
+            "difficulty": 0.7851,
+            "priority": 40.2555,
+            "title": "LLMs Learning Path<br>LLMs Hands-on Practice"
+          }
+        },
+        {
+          "id": "arduino",
+          "data": {
+            "label": "arduino",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.7973,
+            "priority": 0.0,
+            "title": "Arduino Documentation<br>Arduino Project Hub"
+          }
+        },
+        {
+          "id": "css",
+          "data": {
+            "label": "css",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 0.7953,
+            "priority": 0.0,
+            "title": "MDN CSS Guide<br>freeCodeCamp CSS"
+          }
+        },
+        {
+          "id": "file systems",
+          "data": {
+            "label": "file systems",
+            "status": "known",
+            "color": "green",
+            "size": 24,
+            "difficulty": 1.319,
+            "priority": 0.0,
+            "title": "OSTEP: File System Implementation<br>MIT Operating Systems Notes"
           }
         }
       ],
       "edges": [
         {
           "source": "python",
-          "target": "pandas",
-          "weight": 2.0
-        },
-        {
-          "source": "python",
-          "target": "numpy",
-          "weight": 2.0
-        },
-        {
-          "source": "python",
           "target": "machine learning",
           "weight": 3.0
-        },
-        {
-          "source": "statistics",
-          "target": "machine learning",
-          "weight": 2.0
         },
         {
           "source": "machine learning",
           "target": "deep learning",
           "weight": 2.0
-        },
-        {
-          "source": "numpy",
-          "target": "statistics",
-          "weight": 2.0
         }
       ],
       "meta": {
-        "node_count": 10,
-        "edge_count": 6,
-        "roadmap_node_count": 7
+        "node_count": 14,
+        "edge_count": 2,
+        "roadmap_node_count": 6
       }
     }
   },
   "profession_roadmaps": [
     {
       "track_type": "profession_mapping",
-      "title": "Candidate Best-Fit Profession Roadmap: BI Developer",
+      "title": "Candidate Best-Fit Profession Roadmap: Software Engineer",
       "view_label": "Candidate Best-Fit Role View",
       "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
-      "role": "BI Developer",
-      "target_role": "BI Developer",
-      "candidate_best_fit_role": "BI Developer",
+      "role": "Software Engineer",
+      "target_role": "Software Engineer",
+      "candidate_best_fit_role": "Software Engineer",
       "target_jd_role": null,
       "top_role": {
-        "role": "BI Developer",
-        "score": 0.1646,
-        "base_similarity": 0.2146,
-        "prior": 0.86,
-        "prior_scale": 0.9193,
-        "level": "mid",
-        "level_bias": 0.85,
-        "core_overlap_boost": 0.0,
-        "missing_core_penalty": 0.124,
-        "missing_core_score_scale": 0.8,
-        "overlap_count": 1,
+        "role": "Software Engineer",
+        "score": 0.5778,
+        "base_similarity": 0.5572,
+        "prior": 0.84,
+        "prior_scale": 0.952,
+        "level": "entry",
+        "level_bias": 1.0,
+        "core_overlap_boost": 0.06,
+        "missing_core_penalty": 0.031,
+        "missing_core_score_scale": 0.93,
+        "overlap_count": 4,
         "matched_skills": [
-          "sql",
-          "excel",
-          "reporting"
+          "java",
+          "python",
+          "automation",
+          "git",
+          "linux",
+          "debugging",
+          "c",
+          "c++"
         ],
         "core_skills_found": [
-          "sql"
+          "java",
+          "debugging",
+          "git",
+          "automation"
         ],
         "missing_core_skills": [
-          "business intelligence",
-          "power bi",
-          "dashboarding",
-          "data visualization"
+          "system design"
         ],
         "missing_skills": [
-          "business intelligence",
-          "power bi",
-          "dashboarding",
-          "data visualization",
-          "tableau",
-          "analytics"
+          "system design",
+          "software architecture",
+          "apis"
         ],
         "why_this_role": [
-          "strong reporting and dashboard alignment",
-          "good fit for SQL and visualization-heavy work"
+          "strong coding and debugging alignment",
+          "good fit for general software engineering pathways"
         ],
-        "reason": "strong reporting and dashboard alignment; good fit for SQL and visualization-heavy work Strong match because the candidate shows core technical alignment in sql. You may improve your fit by learning business intelligence, power bi, dashboarding."
+        "reason": "strong coding and debugging alignment; good fit for general software engineering pathways Strong match because the candidate shows core technical alignment in java, debugging, git. You may improve your fit by learning system design."
       },
       "__meta__": {
-        "gap_skill_count": 6,
-        "focus_skill_count": 6,
-        "support_skill_count": 1,
-        "relevant_graph_nodes": 9,
-        "relevant_graph_edges": 3,
+        "gap_skill_count": 3,
+        "focus_skill_count": 3,
+        "support_skill_count": 4,
+        "relevant_graph_nodes": 6,
+        "relevant_graph_edges": 5,
         "known_skill_threshold": 0.25,
         "min_target_gap": 0.6,
         "maximum_named_resources": 3,
         "suppressed_direct_target_count": 0
       },
       "roadmap": [
-        "data visualization",
-        "power bi",
-        "tableau",
-        "business intelligence",
-        "analytics",
-        "dashboarding"
+        "apis",
+        "software architecture",
+        "system design"
       ],
       "roadmap_details": [
         {
-          "skill": "data visualization",
-          "priority": 26.3554,
-          "effective_gap": 3.0991,
-          "direct_gap": 3.0991,
-          "jd_importance": 3.5639,
-          "difficulty": 0.8052,
+          "skill": "apis",
+          "priority": 23.3871,
+          "effective_gap": 2.28,
+          "direct_gap": 2.14,
+          "jd_importance": 2.5122,
+          "difficulty": 0.4682,
           "dependency_weight": 2.0,
           "candidate_signal": 0.0,
           "blocking_targets": [
-            "dashboarding"
+            "software architecture",
+            "system design"
           ],
           "unlocks": [
-            "dashboarding"
+            "software architecture"
           ],
           "resources": [
             {
-              "title": "Tableau Learning",
+              "title": "Postman API Fundamentals Student Expert",
               "type": "course",
               "level": "beginner"
             },
             {
-              "title": "Microsoft Learn Power BI",
-              "type": "course",
-              "level": "beginner"
-            }
-          ],
-          "reason": "direct role gap is high; prerequisite for dashboarding; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-          "phase": "Phase 1"
-        },
-        {
-          "skill": "power bi",
-          "priority": 13.3984,
-          "effective_gap": 3.2622,
-          "direct_gap": 3.2622,
-          "jd_importance": 3.7515,
-          "difficulty": 0.8134,
-          "dependency_weight": 1.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "Microsoft Learn Power BI",
-              "type": "course",
-              "level": "beginner"
-            },
-            {
-              "title": "Power BI Guided Learning",
-              "type": "tutorial",
-              "level": "beginner"
-            }
-          ],
-          "reason": "direct role gap is high",
-          "phase": "Phase 1"
-        },
-        {
-          "skill": "tableau",
-          "priority": 11.1406,
-          "effective_gap": 3.0991,
-          "direct_gap": 3.0991,
-          "jd_importance": 3.254,
-          "difficulty": 0.8052,
-          "dependency_weight": 1.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "Tableau Training Videos",
-              "type": "video",
-              "level": "beginner"
-            },
-            {
-              "title": "Tableau Documentation",
+              "title": "MDN Web Docs: APIs",
               "type": "reference",
               "level": "beginner"
             }
           ],
-          "reason": "direct role gap is high",
+          "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
           "phase": "Phase 1"
         },
         {
-          "skill": "business intelligence",
-          "priority": 8.5809,
-          "effective_gap": 3.2622,
-          "direct_gap": 3.2622,
-          "jd_importance": 3.7515,
-          "difficulty": 1.3262,
-          "dependency_weight": 1.0,
+          "skill": "software architecture",
+          "priority": 18.5553,
+          "effective_gap": 2.57,
+          "direct_gap": 2.28,
+          "jd_importance": 2.9555,
+          "difficulty": 0.7842,
+          "dependency_weight": 2.0,
           "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
           "resources": [
             {
-              "title": "Microsoft Learn Business Intelligence",
-              "type": "course",
-              "level": "beginner"
+              "title": "Fundamentals of Software Architecture",
+              "type": "book",
+              "level": "intermediate"
             },
             {
-              "title": "Coursera Business Intelligence Concepts",
-              "type": "course",
-              "level": "beginner"
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
             }
           ],
-          "reason": "direct role gap is high",
-          "phase": "Phase 1"
+          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
         },
         {
-          "skill": "analytics",
-          "priority": 6.4948,
-          "effective_gap": 2.936,
-          "direct_gap": 2.936,
-          "jd_importance": 3.0828,
-          "difficulty": 1.2936,
-          "dependency_weight": 1.0,
-          "candidate_signal": 0.0,
-          "blocking_targets": [],
-          "unlocks": [],
-          "resources": [
-            {
-              "title": "Google Data Analytics Certificate",
-              "type": "course",
-              "level": "beginner"
-            },
-            {
-              "title": "Kaggle Learn",
-              "type": "practice",
-              "level": "beginner"
-            }
-          ],
-          "reason": "direct role gap is high",
-          "phase": "Phase 1"
-        },
-        {
-          "skill": "dashboarding",
-          "priority": 15.6676,
-          "effective_gap": 3.0991,
-          "direct_gap": 3.0991,
-          "jd_importance": 3.5639,
-          "difficulty": 1.3099,
+          "skill": "system design",
+          "priority": 27.3914,
+          "effective_gap": 2.57,
+          "direct_gap": 2.57,
+          "jd_importance": 2.9555,
+          "difficulty": 0.4546,
           "dependency_weight": 2.0,
           "candidate_signal": 0.0,
           "blocking_targets": [],
           "unlocks": [],
           "resources": [
             {
-              "title": "Microsoft Learn Power BI",
-              "type": "course",
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        }
+      ],
+      "roadmap_phases": [
+        {
+          "phase": "Phase 1",
+          "skills": [
+            {
+              "skill": "apis",
+              "priority": 23.3871,
+              "effective_gap": 2.28,
+              "direct_gap": 2.14,
+              "jd_importance": 2.5122,
+              "difficulty": 0.4682,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "software architecture",
+                "system design"
+              ],
+              "unlocks": [
+                "software architecture"
+              ],
+              "resources": [
+                {
+                  "title": "Postman API Fundamentals Student Expert",
+                  "type": "course",
+                  "level": "beginner"
+                },
+                {
+                  "title": "MDN Web Docs: APIs",
+                  "type": "reference",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for software architecture, system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 2",
+          "skills": [
+            {
+              "skill": "software architecture",
+              "priority": 18.5553,
+              "effective_gap": 2.57,
+              "direct_gap": 2.28,
+              "jd_importance": 2.9555,
+              "difficulty": 0.7842,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "system design"
+              ],
+              "unlocks": [
+                "system design"
+              ],
+              "resources": [
+                {
+                  "title": "Fundamentals of Software Architecture",
+                  "type": "book",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 2"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 3",
+          "skills": [
+            {
+              "skill": "system design",
+              "priority": 27.3914,
+              "effective_gap": 2.57,
+              "direct_gap": 2.57,
+              "jd_importance": 2.9555,
+              "difficulty": 0.4546,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "AWS Architecture Center",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+              "phase": "Phase 3"
+            }
+          ]
+        }
+      ],
+      "next_steps": [
+        "system design",
+        "apis",
+        "software architecture"
+      ],
+      "direct_targets": [
+        {
+          "skill": "system design",
+          "gap": 2.57,
+          "importance": 2.9555,
+          "resume_score": 0.0,
+          "jd_score": 2.57,
+          "raw_importance": 2.57,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "software architecture",
+          "gap": 2.28,
+          "importance": 2.394,
+          "resume_score": 0.0,
+          "jd_score": 2.28,
+          "raw_importance": 2.28,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "apis",
+          "gap": 2.14,
+          "importance": 2.247,
+          "resume_score": 0.0,
+          "jd_score": 2.14,
+          "raw_importance": 2.14,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        }
+      ],
+      "suppressed_direct_targets": [],
+      "deferred_targets": [],
+      "graph": {
+        "nodes": [
+          {
+            "id": "system design",
+            "data": {
+              "label": "system design",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4546,
+              "priority": 27.3914,
+              "title": "System Design Primer<br>AWS Architecture Center"
+            }
+          },
+          {
+            "id": "java",
+            "data": {
+              "label": "java",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.5951,
+              "priority": 0.0,
+              "title": "Dev.java Tutorials<br>Java Programming MOOC"
+            }
+          },
+          {
+            "id": "git",
+            "data": {
+              "label": "git",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.4357,
+              "priority": 0.0,
+              "title": "Pro Git Book<br>Git SCM Documentation"
+            }
+          },
+          {
+            "id": "software architecture",
+            "data": {
+              "label": "software architecture",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.7842,
+              "priority": 18.5553,
+              "title": "Fundamentals of Software Architecture<br>System Design Primer"
+            }
+          },
+          {
+            "id": "debugging",
+            "data": {
+              "label": "debugging",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.4494,
+              "priority": 0.0,
+              "title": "The Debugging Book<br>VS Code Debugging Guide"
+            }
+          },
+          {
+            "id": "apis",
+            "data": {
+              "label": "apis",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4682,
+              "priority": 23.3871,
+              "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+            }
+          }
+        ],
+        "edges": [
+          {
+            "source": "java",
+            "target": "apis",
+            "weight": 2.0
+          },
+          {
+            "source": "java",
+            "target": "software architecture",
+            "weight": 2.0
+          },
+          {
+            "source": "software architecture",
+            "target": "system design",
+            "weight": 2.0
+          },
+          {
+            "source": "debugging",
+            "target": "system design",
+            "weight": 1.0
+          },
+          {
+            "source": "apis",
+            "target": "software architecture",
+            "weight": 2.0
+          }
+        ],
+        "meta": {
+          "node_count": 6,
+          "edge_count": 5,
+          "roadmap_node_count": 3
+        }
+      }
+    },
+    {
+      "track_type": "profession_mapping",
+      "title": "Candidate Best-Fit Profession Roadmap: Systems Engineer",
+      "view_label": "Candidate Best-Fit Role View",
+      "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
+      "role": "Systems Engineer",
+      "target_role": "Systems Engineer",
+      "candidate_best_fit_role": "Software Engineer",
+      "target_jd_role": null,
+      "top_role": {
+        "role": "Systems Engineer",
+        "score": 0.5115,
+        "base_similarity": 0.5057,
+        "prior": 0.74,
+        "prior_scale": 0.922,
+        "level": "entry",
+        "level_bias": 1.0,
+        "core_overlap_boost": 0.06,
+        "missing_core_penalty": 0.031,
+        "missing_core_score_scale": 0.93,
+        "overlap_count": 4,
+        "matched_skills": [
+          "java",
+          "python",
+          "automation",
+          "linux",
+          "git",
+          "file systems",
+          "debugging",
+          "c"
+        ],
+        "core_skills_found": [
+          "linux",
+          "automation",
+          "debugging",
+          "file systems"
+        ],
+        "missing_core_skills": [
+          "system design"
+        ],
+        "missing_skills": [
+          "system design",
+          "communication protocols"
+        ],
+        "why_this_role": [
+          "strong systems and automation alignment",
+          "good fit for platform or low-level software work"
+        ],
+        "reason": "strong systems and automation alignment; good fit for platform or low-level software work Strong match because the candidate shows core technical alignment in linux, automation, debugging. You may improve your fit by learning system design."
+      },
+      "__meta__": {
+        "gap_skill_count": 2,
+        "focus_skill_count": 2,
+        "support_skill_count": 4,
+        "relevant_graph_nodes": 5,
+        "relevant_graph_edges": 4,
+        "known_skill_threshold": 0.25,
+        "min_target_gap": 0.6,
+        "maximum_named_resources": 3,
+        "suppressed_direct_target_count": 0
+      },
+      "roadmap": [
+        "communication protocols",
+        "system design"
+      ],
+      "roadmap_details": [
+        {
+          "skill": "communication protocols",
+          "priority": 20.3808,
+          "effective_gap": 2.57,
+          "direct_gap": 1.49,
+          "jd_importance": 2.9555,
+          "difficulty": 0.705,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
+          "resources": [
+            {
+              "title": "Computer Networking: A Top-Down Approach Notes",
+              "type": "reference",
               "level": "beginner"
             },
             {
-              "title": "Tableau eLearning",
+              "title": "Cisco Networking Basics",
               "type": "course",
               "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "system design",
+          "priority": 27.3914,
+          "effective_gap": 2.57,
+          "direct_gap": 2.57,
+          "jd_importance": 2.9555,
+          "difficulty": 0.4546,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
             }
           ],
           "reason": "direct role gap is high; foundational dependency weight boosts its priority",
@@ -1196,137 +1460,33 @@
           "phase": "Phase 1",
           "skills": [
             {
-              "skill": "data visualization",
-              "priority": 26.3554,
-              "effective_gap": 3.0991,
-              "direct_gap": 3.0991,
-              "jd_importance": 3.5639,
-              "difficulty": 0.8052,
+              "skill": "communication protocols",
+              "priority": 20.3808,
+              "effective_gap": 2.57,
+              "direct_gap": 1.49,
+              "jd_importance": 2.9555,
+              "difficulty": 0.705,
               "dependency_weight": 2.0,
               "candidate_signal": 0.0,
               "blocking_targets": [
-                "dashboarding"
+                "system design"
               ],
               "unlocks": [
-                "dashboarding"
+                "system design"
               ],
               "resources": [
                 {
-                  "title": "Tableau Learning",
-                  "type": "course",
-                  "level": "beginner"
-                },
-                {
-                  "title": "Microsoft Learn Power BI",
-                  "type": "course",
-                  "level": "beginner"
-                }
-              ],
-              "reason": "direct role gap is high; prerequisite for dashboarding; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
-              "phase": "Phase 1"
-            },
-            {
-              "skill": "power bi",
-              "priority": 13.3984,
-              "effective_gap": 3.2622,
-              "direct_gap": 3.2622,
-              "jd_importance": 3.7515,
-              "difficulty": 0.8134,
-              "dependency_weight": 1.0,
-              "candidate_signal": 0.0,
-              "blocking_targets": [],
-              "unlocks": [],
-              "resources": [
-                {
-                  "title": "Microsoft Learn Power BI",
-                  "type": "course",
-                  "level": "beginner"
-                },
-                {
-                  "title": "Power BI Guided Learning",
-                  "type": "tutorial",
-                  "level": "beginner"
-                }
-              ],
-              "reason": "direct role gap is high",
-              "phase": "Phase 1"
-            },
-            {
-              "skill": "tableau",
-              "priority": 11.1406,
-              "effective_gap": 3.0991,
-              "direct_gap": 3.0991,
-              "jd_importance": 3.254,
-              "difficulty": 0.8052,
-              "dependency_weight": 1.0,
-              "candidate_signal": 0.0,
-              "blocking_targets": [],
-              "unlocks": [],
-              "resources": [
-                {
-                  "title": "Tableau Training Videos",
-                  "type": "video",
-                  "level": "beginner"
-                },
-                {
-                  "title": "Tableau Documentation",
+                  "title": "Computer Networking: A Top-Down Approach Notes",
                   "type": "reference",
                   "level": "beginner"
-                }
-              ],
-              "reason": "direct role gap is high",
-              "phase": "Phase 1"
-            },
-            {
-              "skill": "business intelligence",
-              "priority": 8.5809,
-              "effective_gap": 3.2622,
-              "direct_gap": 3.2622,
-              "jd_importance": 3.7515,
-              "difficulty": 1.3262,
-              "dependency_weight": 1.0,
-              "candidate_signal": 0.0,
-              "blocking_targets": [],
-              "unlocks": [],
-              "resources": [
-                {
-                  "title": "Microsoft Learn Business Intelligence",
-                  "type": "course",
-                  "level": "beginner"
                 },
                 {
-                  "title": "Coursera Business Intelligence Concepts",
+                  "title": "Cisco Networking Basics",
                   "type": "course",
                   "level": "beginner"
                 }
               ],
-              "reason": "direct role gap is high",
-              "phase": "Phase 1"
-            },
-            {
-              "skill": "analytics",
-              "priority": 6.4948,
-              "effective_gap": 2.936,
-              "direct_gap": 2.936,
-              "jd_importance": 3.0828,
-              "difficulty": 1.2936,
-              "dependency_weight": 1.0,
-              "candidate_signal": 0.0,
-              "blocking_targets": [],
-              "unlocks": [],
-              "resources": [
-                {
-                  "title": "Google Data Analytics Certificate",
-                  "type": "course",
-                  "level": "beginner"
-                },
-                {
-                  "title": "Kaggle Learn",
-                  "type": "practice",
-                  "level": "beginner"
-                }
-              ],
-              "reason": "direct role gap is high",
+              "reason": "direct role gap is high; prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
               "phase": "Phase 1"
             }
           ]
@@ -1335,26 +1495,26 @@
           "phase": "Phase 2",
           "skills": [
             {
-              "skill": "dashboarding",
-              "priority": 15.6676,
-              "effective_gap": 3.0991,
-              "direct_gap": 3.0991,
-              "jd_importance": 3.5639,
-              "difficulty": 1.3099,
+              "skill": "system design",
+              "priority": 27.3914,
+              "effective_gap": 2.57,
+              "direct_gap": 2.57,
+              "jd_importance": 2.9555,
+              "difficulty": 0.4546,
               "dependency_weight": 2.0,
               "candidate_signal": 0.0,
               "blocking_targets": [],
               "unlocks": [],
               "resources": [
                 {
-                  "title": "Microsoft Learn Power BI",
-                  "type": "course",
-                  "level": "beginner"
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
                 },
                 {
-                  "title": "Tableau eLearning",
-                  "type": "course",
-                  "level": "beginner"
+                  "title": "AWS Architecture Center",
+                  "type": "reference",
+                  "level": "intermediate"
                 }
               ],
               "reason": "direct role gap is high; foundational dependency weight boosts its priority",
@@ -1364,16 +1524,765 @@
         }
       ],
       "next_steps": [
-        "data visualization"
+        "system design",
+        "communication protocols"
       ],
       "direct_targets": [
         {
-          "skill": "business intelligence",
-          "gap": 3.2622,
-          "importance": 3.7515,
+          "skill": "system design",
+          "gap": 2.57,
+          "importance": 2.9555,
           "resume_score": 0.0,
-          "jd_score": 3.2622,
-          "raw_importance": 3.2622,
+          "jd_score": 2.57,
+          "raw_importance": 2.57,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        },
+        {
+          "skill": "communication protocols",
+          "gap": 1.49,
+          "importance": 1.5645,
+          "resume_score": 0.0,
+          "jd_score": 1.49,
+          "raw_importance": 1.49,
+          "priority_penalty": 1.0,
+          "level": "entry",
+          "action": "profession priority",
+          "category": "profession_mapping",
+          "gap_reason": "direct role gap is high"
+        }
+      ],
+      "suppressed_direct_targets": [],
+      "deferred_targets": [],
+      "graph": {
+        "nodes": [
+          {
+            "id": "linux",
+            "data": {
+              "label": "linux",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.3304,
+              "priority": 0.0,
+              "title": "Linux Journey<br>OverTheWire Bandit"
+            }
+          },
+          {
+            "id": "communication protocols",
+            "data": {
+              "label": "communication protocols",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.705,
+              "priority": 20.3808,
+              "title": "Computer Networking: A Top-Down Approach Notes<br>Cisco Networking Basics"
+            }
+          },
+          {
+            "id": "system design",
+            "data": {
+              "label": "system design",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4546,
+              "priority": 27.3914,
+              "title": "System Design Primer<br>AWS Architecture Center"
+            }
+          },
+          {
+            "id": "debugging",
+            "data": {
+              "label": "debugging",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 0.4494,
+              "priority": 0.0,
+              "title": "The Debugging Book<br>VS Code Debugging Guide"
+            }
+          },
+          {
+            "id": "file systems",
+            "data": {
+              "label": "file systems",
+              "status": "known",
+              "color": "green",
+              "size": 24,
+              "difficulty": 1.319,
+              "priority": 0.0,
+              "title": "OSTEP: File System Implementation<br>MIT Operating Systems Notes"
+            }
+          }
+        ],
+        "edges": [
+          {
+            "source": "linux",
+            "target": "communication protocols",
+            "weight": 1.0
+          },
+          {
+            "source": "communication protocols",
+            "target": "system design",
+            "weight": 2.0
+          },
+          {
+            "source": "debugging",
+            "target": "system design",
+            "weight": 1.0
+          },
+          {
+            "source": "file systems",
+            "target": "system design",
+            "weight": 2.0
+          }
+        ],
+        "meta": {
+          "node_count": 5,
+          "edge_count": 4,
+          "roadmap_node_count": 2
+        }
+      }
+    },
+    {
+      "track_type": "profession_mapping",
+      "title": "Candidate Best-Fit Profession Roadmap: Backend Engineer",
+      "view_label": "Candidate Best-Fit Role View",
+      "view_purpose": "This roadmap shows the most relevant next skills for the candidate's best-fit profession.",
+      "role": "Backend Engineer",
+      "target_role": "Backend Engineer",
+      "candidate_best_fit_role": "Software Engineer",
+      "target_jd_role": null,
+      "top_role": {
+        "role": "Backend Engineer",
+        "score": 0.1663,
+        "base_similarity": 0.2207,
+        "prior": 0.85,
+        "prior_scale": 0.9167,
+        "level": "mid",
+        "level_bias": 0.85,
+        "core_overlap_boost": 0.0,
+        "missing_core_penalty": 0.124,
+        "missing_core_score_scale": 0.8,
+        "overlap_count": 1,
+        "matched_skills": [
+          "java",
+          "python",
+          "git"
+        ],
+        "core_skills_found": [
+          "java"
+        ],
+        "missing_core_skills": [
+          "apis",
+          "rest api",
+          "system design",
+          "microservices"
+        ],
+        "missing_skills": [
+          "apis",
+          "rest api",
+          "system design",
+          "microservices",
+          "node.js",
+          "sql"
+        ],
+        "why_this_role": [
+          "strong APIs and database alignment",
+          "good fit for system design and service development"
+        ],
+        "reason": "strong APIs and database alignment; good fit for system design and service development Strong match because the candidate shows core technical alignment in java. You may improve your fit by learning apis, rest api, system design."
+      },
+      "__meta__": {
+        "gap_skill_count": 6,
+        "focus_skill_count": 6,
+        "support_skill_count": 1,
+        "relevant_graph_nodes": 11,
+        "relevant_graph_edges": 10,
+        "known_skill_threshold": 0.25,
+        "min_target_gap": 0.6,
+        "maximum_named_resources": 3,
+        "suppressed_direct_target_count": 0
+      },
+      "roadmap": [
+        "apis",
+        "javascript",
+        "sql",
+        "html",
+        "node.js",
+        "software architecture",
+        "system design",
+        "rest api",
+        "microservices"
+      ],
+      "roadmap_details": [
+        {
+          "skill": "apis",
+          "priority": 39.7266,
+          "effective_gap": 2.8133,
+          "direct_gap": 2.8133,
+          "jd_importance": 3.2353,
+          "difficulty": 0.4682,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "rest api",
+            "microservices",
+            "system design"
+          ],
+          "unlocks": [
+            "rest api"
+          ],
+          "resources": [
+            {
+              "title": "Postman API Fundamentals Student Expert",
+              "type": "course",
+              "level": "beginner"
+            },
+            {
+              "title": "MDN Web Docs: APIs",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "javascript",
+          "priority": 22.0374,
+          "effective_gap": 2.5319,
+          "direct_gap": 0.0,
+          "jd_importance": 2.75,
+          "difficulty": 0.6052,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "node.js",
+            "rest api",
+            "microservices"
+          ],
+          "unlocks": [
+            "node.js"
+          ],
+          "resources": [
+            {
+              "title": "MDN JavaScript Guide",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "freeCodeCamp JavaScript",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "sql",
+          "priority": 12.6643,
+          "effective_gap": 2.5319,
+          "direct_gap": 2.5319,
+          "jd_importance": 2.6585,
+          "difficulty": 0.4315,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "SQLBolt",
+              "type": "interactive",
+              "level": "beginner"
+            },
+            {
+              "title": "Mode SQL Tutorial",
+              "type": "practical",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "html",
+          "priority": 9.0612,
+          "effective_gap": 1.8293,
+          "direct_gap": 0.0,
+          "jd_importance": 1.9869,
+          "difficulty": 0.7953,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "node.js",
+            "rest api",
+            "microservices"
+          ],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "MDN HTML Guide",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "freeCodeCamp Responsive Web Design",
+              "type": "practice",
+              "level": "beginner"
+            }
+          ],
+          "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 1"
+        },
+        {
+          "skill": "node.js",
+          "priority": 24.477,
+          "effective_gap": 2.8133,
+          "direct_gap": 2.5319,
+          "jd_importance": 3.2353,
+          "difficulty": 0.7627,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "rest api",
+            "microservices"
+          ],
+          "unlocks": [
+            "rest api"
+          ],
+          "resources": [
+            {
+              "title": "Node.js Documentation",
+              "type": "reference",
+              "level": "beginner"
+            },
+            {
+              "title": "freeCodeCamp Node.js",
+              "type": "video",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        },
+        {
+          "skill": "software architecture",
+          "priority": 18.0598,
+          "effective_gap": 2.6726,
+          "direct_gap": 0.0,
+          "jd_importance": 3.0735,
+          "difficulty": 0.7842,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "system design"
+          ],
+          "unlocks": [
+            "system design"
+          ],
+          "resources": [
+            {
+              "title": "Fundamentals of Software Architecture",
+              "type": "book",
+              "level": "intermediate"
+            },
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 2"
+        },
+        {
+          "skill": "system design",
+          "priority": 29.6222,
+          "effective_gap": 2.6726,
+          "direct_gap": 2.6726,
+          "jd_importance": 3.0735,
+          "difficulty": 0.4546,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "System Design Primer",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "AWS Architecture Center",
+              "type": "reference",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        },
+        {
+          "skill": "rest api",
+          "priority": 14.233,
+          "effective_gap": 2.8133,
+          "direct_gap": 2.8133,
+          "jd_importance": 3.2353,
+          "difficulty": 1.2813,
+          "dependency_weight": 2.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [
+            "microservices"
+          ],
+          "unlocks": [
+            "microservices"
+          ],
+          "resources": [
+            {
+              "title": "Postman Learning Center",
+              "type": "tutorial",
+              "level": "beginner"
+            },
+            {
+              "title": "REST API Tutorial",
+              "type": "reference",
+              "level": "beginner"
+            }
+          ],
+          "reason": "direct role gap is high; prerequisite for microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+          "phase": "Phase 3"
+        },
+        {
+          "skill": "microservices",
+          "priority": 10.2377,
+          "effective_gap": 2.5319,
+          "direct_gap": 2.5319,
+          "jd_importance": 2.9117,
+          "difficulty": 0.6201,
+          "dependency_weight": 1.0,
+          "candidate_signal": 0.0,
+          "blocking_targets": [],
+          "unlocks": [],
+          "resources": [
+            {
+              "title": "Microsoft Microservices Architecture Guide",
+              "type": "reference",
+              "level": "intermediate"
+            },
+            {
+              "title": "Martin Fowler Microservices",
+              "type": "article",
+              "level": "intermediate"
+            }
+          ],
+          "reason": "direct role gap is high",
+          "phase": "Phase 4"
+        }
+      ],
+      "roadmap_phases": [
+        {
+          "phase": "Phase 1",
+          "skills": [
+            {
+              "skill": "apis",
+              "priority": 39.7266,
+              "effective_gap": 2.8133,
+              "direct_gap": 2.8133,
+              "jd_importance": 3.2353,
+              "difficulty": 0.4682,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "rest api",
+                "microservices",
+                "system design"
+              ],
+              "unlocks": [
+                "rest api"
+              ],
+              "resources": [
+                {
+                  "title": "Postman API Fundamentals Student Expert",
+                  "type": "course",
+                  "level": "beginner"
+                },
+                {
+                  "title": "MDN Web Docs: APIs",
+                  "type": "reference",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            },
+            {
+              "skill": "javascript",
+              "priority": 22.0374,
+              "effective_gap": 2.5319,
+              "direct_gap": 0.0,
+              "jd_importance": 2.75,
+              "difficulty": 0.6052,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "node.js",
+                "rest api",
+                "microservices"
+              ],
+              "unlocks": [
+                "node.js"
+              ],
+              "resources": [
+                {
+                  "title": "MDN JavaScript Guide",
+                  "type": "reference",
+                  "level": "beginner"
+                },
+                {
+                  "title": "freeCodeCamp JavaScript",
+                  "type": "practice",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            },
+            {
+              "skill": "sql",
+              "priority": 12.6643,
+              "effective_gap": 2.5319,
+              "direct_gap": 2.5319,
+              "jd_importance": 2.6585,
+              "difficulty": 0.4315,
+              "dependency_weight": 1.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "SQLBolt",
+                  "type": "interactive",
+                  "level": "beginner"
+                },
+                {
+                  "title": "Mode SQL Tutorial",
+                  "type": "practical",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high",
+              "phase": "Phase 1"
+            },
+            {
+              "skill": "html",
+              "priority": 9.0612,
+              "effective_gap": 1.8293,
+              "direct_gap": 0.0,
+              "jd_importance": 1.9869,
+              "difficulty": 0.7953,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "node.js",
+                "rest api",
+                "microservices"
+              ],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "MDN HTML Guide",
+                  "type": "reference",
+                  "level": "beginner"
+                },
+                {
+                  "title": "freeCodeCamp Responsive Web Design",
+                  "type": "practice",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "prerequisite for node.js, rest api; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 1"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 2",
+          "skills": [
+            {
+              "skill": "node.js",
+              "priority": 24.477,
+              "effective_gap": 2.8133,
+              "direct_gap": 2.5319,
+              "jd_importance": 3.2353,
+              "difficulty": 0.7627,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "rest api",
+                "microservices"
+              ],
+              "unlocks": [
+                "rest api"
+              ],
+              "resources": [
+                {
+                  "title": "Node.js Documentation",
+                  "type": "reference",
+                  "level": "beginner"
+                },
+                {
+                  "title": "freeCodeCamp Node.js",
+                  "type": "video",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for rest api, microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 2"
+            },
+            {
+              "skill": "software architecture",
+              "priority": 18.0598,
+              "effective_gap": 2.6726,
+              "direct_gap": 0.0,
+              "jd_importance": 3.0735,
+              "difficulty": 0.7842,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "system design"
+              ],
+              "unlocks": [
+                "system design"
+              ],
+              "resources": [
+                {
+                  "title": "Fundamentals of Software Architecture",
+                  "type": "book",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "prerequisite for system design; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 2"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 3",
+          "skills": [
+            {
+              "skill": "system design",
+              "priority": 29.6222,
+              "effective_gap": 2.6726,
+              "direct_gap": 2.6726,
+              "jd_importance": 3.0735,
+              "difficulty": 0.4546,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "System Design Primer",
+                  "type": "reference",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "AWS Architecture Center",
+                  "type": "reference",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high; foundational dependency weight boosts its priority",
+              "phase": "Phase 3"
+            },
+            {
+              "skill": "rest api",
+              "priority": 14.233,
+              "effective_gap": 2.8133,
+              "direct_gap": 2.8133,
+              "jd_importance": 3.2353,
+              "difficulty": 1.2813,
+              "dependency_weight": 2.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [
+                "microservices"
+              ],
+              "unlocks": [
+                "microservices"
+              ],
+              "resources": [
+                {
+                  "title": "Postman Learning Center",
+                  "type": "tutorial",
+                  "level": "beginner"
+                },
+                {
+                  "title": "REST API Tutorial",
+                  "type": "reference",
+                  "level": "beginner"
+                }
+              ],
+              "reason": "direct role gap is high; prerequisite for microservices; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority",
+              "phase": "Phase 3"
+            }
+          ]
+        },
+        {
+          "phase": "Phase 4",
+          "skills": [
+            {
+              "skill": "microservices",
+              "priority": 10.2377,
+              "effective_gap": 2.5319,
+              "direct_gap": 2.5319,
+              "jd_importance": 2.9117,
+              "difficulty": 0.6201,
+              "dependency_weight": 1.0,
+              "candidate_signal": 0.0,
+              "blocking_targets": [],
+              "unlocks": [],
+              "resources": [
+                {
+                  "title": "Microsoft Microservices Architecture Guide",
+                  "type": "reference",
+                  "level": "intermediate"
+                },
+                {
+                  "title": "Martin Fowler Microservices",
+                  "type": "article",
+                  "level": "intermediate"
+                }
+              ],
+              "reason": "direct role gap is high",
+              "phase": "Phase 4"
+            }
+          ]
+        }
+      ],
+      "next_steps": [
+        "apis",
+        "javascript",
+        "software architecture"
+      ],
+      "direct_targets": [
+        {
+          "skill": "apis",
+          "gap": 2.8133,
+          "importance": 3.2353,
+          "resume_score": 0.0,
+          "jd_score": 2.8133,
+          "raw_importance": 2.8133,
           "priority_penalty": 1.0,
           "level": "mid",
           "action": "profession priority",
@@ -1381,12 +2290,12 @@
           "gap_reason": "direct role gap is high"
         },
         {
-          "skill": "power bi",
-          "gap": 3.2622,
-          "importance": 3.7515,
+          "skill": "rest api",
+          "gap": 2.8133,
+          "importance": 3.2353,
           "resume_score": 0.0,
-          "jd_score": 3.2622,
-          "raw_importance": 3.2622,
+          "jd_score": 2.8133,
+          "raw_importance": 2.8133,
           "priority_penalty": 1.0,
           "level": "mid",
           "action": "profession priority",
@@ -1394,12 +2303,12 @@
           "gap_reason": "direct role gap is high"
         },
         {
-          "skill": "dashboarding",
-          "gap": 3.0991,
-          "importance": 3.5639,
+          "skill": "system design",
+          "gap": 2.6726,
+          "importance": 3.0735,
           "resume_score": 0.0,
-          "jd_score": 3.0991,
-          "raw_importance": 3.0991,
+          "jd_score": 2.6726,
+          "raw_importance": 2.6726,
           "priority_penalty": 1.0,
           "level": "mid",
           "action": "profession priority",
@@ -1407,12 +2316,12 @@
           "gap_reason": "direct role gap is high"
         },
         {
-          "skill": "data visualization",
-          "gap": 3.0991,
-          "importance": 3.5639,
+          "skill": "microservices",
+          "gap": 2.5319,
+          "importance": 2.9117,
           "resume_score": 0.0,
-          "jd_score": 3.0991,
-          "raw_importance": 3.0991,
+          "jd_score": 2.5319,
+          "raw_importance": 2.5319,
           "priority_penalty": 1.0,
           "level": "mid",
           "action": "profession priority",
@@ -1420,12 +2329,12 @@
           "gap_reason": "direct role gap is high"
         },
         {
-          "skill": "tableau",
-          "gap": 3.0991,
-          "importance": 3.254,
+          "skill": "node.js",
+          "gap": 2.5319,
+          "importance": 2.6585,
           "resume_score": 0.0,
-          "jd_score": 3.0991,
-          "raw_importance": 3.0991,
+          "jd_score": 2.5319,
+          "raw_importance": 2.5319,
           "priority_penalty": 1.0,
           "level": "mid",
           "action": "profession priority",
@@ -1433,12 +2342,12 @@
           "gap_reason": "direct role gap is high"
         },
         {
-          "skill": "analytics",
-          "gap": 2.936,
-          "importance": 3.0828,
+          "skill": "sql",
+          "gap": 2.5319,
+          "importance": 2.6585,
           "resume_score": 0.0,
-          "jd_score": 2.936,
-          "raw_importance": 2.936,
+          "jd_score": 2.5319,
+          "raw_importance": 2.5319,
           "priority_penalty": 1.0,
           "level": "mid",
           "action": "profession priority",
@@ -1451,209 +2360,261 @@
       "graph": {
         "nodes": [
           {
-            "id": "power bi",
+            "id": "node.js",
             "data": {
-              "label": "power bi",
+              "label": "node.js",
               "status": "missing",
               "color": "red",
               "size": 34,
-              "difficulty": 0.8134,
-              "priority": 13.3984,
-              "title": "Microsoft Learn Power BI<br>Power BI Guided Learning"
+              "difficulty": 0.7627,
+              "priority": 24.477,
+              "title": "Node.js Documentation<br>freeCodeCamp Node.js"
             }
           },
           {
-            "id": "data visualization",
+            "id": "system design",
             "data": {
-              "label": "data visualization",
-              "status": "next_step",
-              "color": "yellow",
-              "size": 30,
-              "difficulty": 0.8052,
-              "priority": 26.3554,
-              "title": "Tableau Learning<br>Microsoft Learn Power BI"
-            }
-          },
-          {
-            "id": "dashboarding",
-            "data": {
-              "label": "dashboarding",
+              "label": "system design",
               "status": "missing",
               "color": "red",
               "size": 34,
-              "difficulty": 1.3099,
-              "priority": 15.6676,
-              "title": "Microsoft Learn Power BI<br>Tableau eLearning"
+              "difficulty": 0.4546,
+              "priority": 29.6222,
+              "title": "System Design Primer<br>AWS Architecture Center"
             }
           },
           {
-            "id": "python",
+            "id": "java",
             "data": {
-              "label": "python",
+              "label": "java",
               "status": "known",
               "color": "green",
               "size": 24,
-              "difficulty": 0.3348,
+              "difficulty": 0.5951,
               "priority": 0.0,
-              "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
+              "title": "Dev.java Tutorials<br>Java Programming MOOC"
             }
           },
           {
             "id": "sql",
             "data": {
               "label": "sql",
-              "status": "known",
-              "color": "green",
-              "size": 24,
+              "status": "missing",
+              "color": "red",
+              "size": 34,
               "difficulty": 0.4315,
-              "priority": 0.0,
+              "priority": 12.6643,
               "title": "SQLBolt<br>Mode SQL Tutorial"
             }
           },
           {
-            "id": "analytics",
+            "id": "rest api",
             "data": {
-              "label": "analytics",
+              "label": "rest api",
               "status": "missing",
               "color": "red",
               "size": 34,
-              "difficulty": 1.2936,
-              "priority": 6.4948,
-              "title": "Google Data Analytics Certificate<br>Kaggle Learn"
+              "difficulty": 1.2813,
+              "priority": 14.233,
+              "title": "Postman Learning Center<br>REST API Tutorial"
             }
           },
           {
-            "id": "business intelligence",
+            "id": "software architecture",
             "data": {
-              "label": "business intelligence",
+              "label": "software architecture",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.7842,
+              "priority": 18.0598,
+              "title": "Fundamentals of Software Architecture<br>System Design Primer"
+            }
+          },
+          {
+            "id": "microservices",
+            "data": {
+              "label": "microservices",
               "status": "missing",
               "color": "red",
               "size": 34,
-              "difficulty": 1.3262,
-              "priority": 8.5809,
-              "title": "Microsoft Learn Business Intelligence<br>Coursera Business Intelligence Concepts"
+              "difficulty": 0.6201,
+              "priority": 10.2377,
+              "title": "Microsoft Microservices Architecture Guide<br>Martin Fowler Microservices"
             }
           },
           {
-            "id": "tableau",
+            "id": "javascript",
             "data": {
-              "label": "tableau",
-              "status": "missing",
-              "color": "red",
-              "size": 34,
-              "difficulty": 0.8052,
-              "priority": 11.1406,
-              "title": "Tableau Training Videos<br>Tableau Documentation"
+              "label": "javascript",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.6052,
+              "priority": 22.0374,
+              "title": "MDN JavaScript Guide<br>freeCodeCamp JavaScript"
             }
           },
           {
-            "id": "pandas",
+            "id": "html",
             "data": {
-              "label": "pandas",
+              "label": "html",
+              "status": "prerequisite",
+              "color": "orange",
+              "size": 22,
+              "difficulty": 0.7953,
+              "priority": 9.0612,
+              "title": "MDN HTML Guide<br>freeCodeCamp Responsive Web Design"
+            }
+          },
+          {
+            "id": "apis",
+            "data": {
+              "label": "apis",
+              "status": "next_step",
+              "color": "yellow",
+              "size": 30,
+              "difficulty": 0.4682,
+              "priority": 39.7266,
+              "title": "Postman API Fundamentals Student Expert<br>MDN Web Docs: APIs"
+            }
+          },
+          {
+            "id": "css",
+            "data": {
+              "label": "css",
               "status": "known",
               "color": "green",
               "size": 24,
-              "difficulty": 0.7636,
+              "difficulty": 0.7953,
               "priority": 0.0,
-              "title": "Kaggle Pandas<br>Pandas User Guide"
+              "title": "MDN CSS Guide<br>freeCodeCamp CSS"
             }
           }
         ],
         "edges": [
           {
-            "source": "data visualization",
-            "target": "dashboarding",
+            "source": "node.js",
+            "target": "rest api",
             "weight": 2.0
           },
           {
-            "source": "python",
-            "target": "pandas",
+            "source": "java",
+            "target": "apis",
             "weight": 2.0
           },
           {
-            "source": "pandas",
-            "target": "data visualization",
+            "source": "java",
+            "target": "software architecture",
+            "weight": 2.0
+          },
+          {
+            "source": "rest api",
+            "target": "microservices",
             "weight": 1.0
+          },
+          {
+            "source": "software architecture",
+            "target": "system design",
+            "weight": 2.0
+          },
+          {
+            "source": "javascript",
+            "target": "node.js",
+            "weight": 2.0
+          },
+          {
+            "source": "html",
+            "target": "css",
+            "weight": 2.0
+          },
+          {
+            "source": "apis",
+            "target": "rest api",
+            "weight": 2.0
+          },
+          {
+            "source": "apis",
+            "target": "software architecture",
+            "weight": 2.0
+          },
+          {
+            "source": "css",
+            "target": "javascript",
+            "weight": 2.0
           }
         ],
         "meta": {
-          "node_count": 9,
-          "edge_count": 3,
-          "roadmap_node_count": 6
+          "node_count": 11,
+          "edge_count": 10,
+          "roadmap_node_count": 9
         }
       }
     }
   ],
   "roadmap": [
-    "python",
-    "statistics",
+    "machine learning",
+    "llms",
     "computer graphics",
     "cuda",
     "large language models",
-    "machine learning",
     "deep learning"
   ],
   "roadmap_details": [
     {
-      "skill": "python",
-      "priority": 145.2732,
-      "effective_gap": 4.7268,
-      "direct_gap": 0.9886,
-      "jd_importance": 5.3333,
-      "difficulty": 0.3348,
+      "skill": "machine learning",
+      "priority": 155.5301,
+      "effective_gap": 5.5609,
+      "direct_gap": 5.3333,
+      "jd_importance": 5.5609,
+      "difficulty": 0.5442,
       "dependency_weight": 3.0,
-      "candidate_signal": 0.307,
+      "candidate_signal": 0.0,
       "blocking_targets": [
-        "machine learning",
         "deep learning"
       ],
       "unlocks": [
-        "machine learning"
+        "deep learning"
       ],
       "resources": [
         {
-          "title": "Python Official Tutorial",
-          "type": "reference",
+          "title": "Google Machine Learning Crash Course",
+          "type": "course",
           "level": "beginner"
         },
         {
-          "title": "Automate the Boring Stuff with Python",
-          "type": "course",
-          "level": "beginner"
+          "title": "Hands-On Machine Learning",
+          "type": "book",
+          "level": "intermediate"
         }
       ],
-      "reason": "JD still expects deeper strength than the current evidence; prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong; candidate already shows baseline evidence",
+      "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
       "phase": "Phase 1"
     },
     {
-      "skill": "statistics",
-      "priority": 72.4433,
-      "effective_gap": 4.7268,
-      "direct_gap": 0.0,
-      "jd_importance": 5.3333,
-      "difficulty": 0.6266,
-      "dependency_weight": 2.0,
+      "skill": "llms",
+      "priority": 40.2555,
+      "effective_gap": 5.9691,
+      "direct_gap": 5.9691,
+      "jd_importance": 5.9691,
+      "difficulty": 0.7851,
+      "dependency_weight": 1.0,
       "candidate_signal": 0.0,
-      "blocking_targets": [
-        "machine learning",
-        "deep learning"
-      ],
-      "unlocks": [
-        "machine learning"
-      ],
+      "blocking_targets": [],
+      "unlocks": [],
       "resources": [
         {
-          "title": "Khan Academy Statistics and Probability",
+          "title": "LLMs Learning Path",
           "type": "course",
           "level": "beginner"
         },
         {
-          "title": "StatQuest Statistics Fundamentals",
-          "type": "video",
+          "title": "LLMs Hands-on Practice",
+          "type": "practice",
           "level": "beginner"
         }
       ],
-      "reason": "prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+      "reason": "direct JD gap is high; JD importance is strong",
       "phase": "Phase 1"
     },
     {
@@ -1735,36 +2696,6 @@
       "phase": "Phase 1"
     },
     {
-      "skill": "machine learning",
-      "priority": 155.5301,
-      "effective_gap": 5.5609,
-      "direct_gap": 4.0373,
-      "jd_importance": 5.5609,
-      "difficulty": 0.5442,
-      "dependency_weight": 3.0,
-      "candidate_signal": 0.2142,
-      "blocking_targets": [
-        "deep learning"
-      ],
-      "unlocks": [
-        "deep learning"
-      ],
-      "resources": [
-        {
-          "title": "Google Machine Learning Crash Course",
-          "type": "course",
-          "level": "beginner"
-        },
-        {
-          "title": "Hands-On Machine Learning",
-          "type": "book",
-          "level": "intermediate"
-        }
-      ],
-      "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-      "phase": "Phase 2"
-    },
-    {
       "skill": "deep learning",
       "priority": 96.1107,
       "effective_gap": 5.5609,
@@ -1788,7 +2719,7 @@
         }
       ],
       "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-      "phase": "Phase 3"
+      "phase": "Phase 2"
     }
   ],
   "roadmap_phases": [
@@ -1796,65 +2727,59 @@
       "phase": "Phase 1",
       "skills": [
         {
-          "skill": "python",
-          "priority": 145.2732,
-          "effective_gap": 4.7268,
-          "direct_gap": 0.9886,
-          "jd_importance": 5.3333,
-          "difficulty": 0.3348,
+          "skill": "machine learning",
+          "priority": 155.5301,
+          "effective_gap": 5.5609,
+          "direct_gap": 5.3333,
+          "jd_importance": 5.5609,
+          "difficulty": 0.5442,
           "dependency_weight": 3.0,
-          "candidate_signal": 0.307,
+          "candidate_signal": 0.0,
           "blocking_targets": [
-            "machine learning",
             "deep learning"
           ],
           "unlocks": [
-            "machine learning"
+            "deep learning"
           ],
           "resources": [
             {
-              "title": "Python Official Tutorial",
-              "type": "reference",
+              "title": "Google Machine Learning Crash Course",
+              "type": "course",
               "level": "beginner"
             },
             {
-              "title": "Automate the Boring Stuff with Python",
-              "type": "course",
-              "level": "beginner"
+              "title": "Hands-On Machine Learning",
+              "type": "book",
+              "level": "intermediate"
             }
           ],
-          "reason": "JD still expects deeper strength than the current evidence; prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong; candidate already shows baseline evidence",
+          "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
           "phase": "Phase 1"
         },
         {
-          "skill": "statistics",
-          "priority": 72.4433,
-          "effective_gap": 4.7268,
-          "direct_gap": 0.0,
-          "jd_importance": 5.3333,
-          "difficulty": 0.6266,
-          "dependency_weight": 2.0,
+          "skill": "llms",
+          "priority": 40.2555,
+          "effective_gap": 5.9691,
+          "direct_gap": 5.9691,
+          "jd_importance": 5.9691,
+          "difficulty": 0.7851,
+          "dependency_weight": 1.0,
           "candidate_signal": 0.0,
-          "blocking_targets": [
-            "machine learning",
-            "deep learning"
-          ],
-          "unlocks": [
-            "machine learning"
-          ],
+          "blocking_targets": [],
+          "unlocks": [],
           "resources": [
             {
-              "title": "Khan Academy Statistics and Probability",
+              "title": "LLMs Learning Path",
               "type": "course",
               "level": "beginner"
             },
             {
-              "title": "StatQuest Statistics Fundamentals",
-              "type": "video",
+              "title": "LLMs Hands-on Practice",
+              "type": "practice",
               "level": "beginner"
             }
           ],
-          "reason": "prerequisite for machine learning, deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
+          "reason": "direct JD gap is high; JD importance is strong",
           "phase": "Phase 1"
         },
         {
@@ -1941,41 +2866,6 @@
       "phase": "Phase 2",
       "skills": [
         {
-          "skill": "machine learning",
-          "priority": 155.5301,
-          "effective_gap": 5.5609,
-          "direct_gap": 4.0373,
-          "jd_importance": 5.5609,
-          "difficulty": 0.5442,
-          "dependency_weight": 3.0,
-          "candidate_signal": 0.2142,
-          "blocking_targets": [
-            "deep learning"
-          ],
-          "unlocks": [
-            "deep learning"
-          ],
-          "resources": [
-            {
-              "title": "Google Machine Learning Crash Course",
-              "type": "course",
-              "level": "beginner"
-            },
-            {
-              "title": "Hands-On Machine Learning",
-              "type": "book",
-              "level": "intermediate"
-            }
-          ],
-          "reason": "direct JD gap is high; prerequisite for deep learning; sequenced earlier because it unlocks downstream skills; foundational dependency weight boosts its priority; JD importance is strong",
-          "phase": "Phase 2"
-        }
-      ]
-    },
-    {
-      "phase": "Phase 3",
-      "skills": [
-        {
           "skill": "deep learning",
           "priority": 96.1107,
           "effective_gap": 5.5609,
@@ -1999,14 +2889,13 @@
             }
           ],
           "reason": "direct JD gap is high; foundational dependency weight boosts its priority; JD importance is strong",
-          "phase": "Phase 3"
+          "phase": "Phase 2"
         }
       ]
     }
   ],
   "next_steps": [
-    "machine learning",
-    "statistics"
+    "machine learning"
   ],
   "direct_targets": [
     {
@@ -2055,6 +2944,21 @@
       "gap_reason": "direct JD gap is high"
     },
     {
+      "skill": "llms",
+      "gap": 5.9691,
+      "importance": 5.9691,
+      "resume_score": 0.0,
+      "jd_score": 5.9691,
+      "raw_importance": 5.9691,
+      "priority_penalty": 1.0,
+      "level": "Moderate Gap",
+      "action": "important",
+      "category": "hard_skill",
+      "taxonomy_category": "Machine Learning",
+      "candidate_signal": 0.0,
+      "gap_reason": "direct JD gap is high"
+    },
+    {
       "skill": "deep learning",
       "gap": 5.5609,
       "importance": 5.5609,
@@ -2071,9 +2975,9 @@
     },
     {
       "skill": "machine learning",
-      "gap": 4.0373,
+      "gap": 5.3333,
       "importance": 5.3333,
-      "resume_score": 1.296,
+      "resume_score": 0.0,
       "jd_score": 5.3333,
       "raw_importance": 5.3333,
       "priority_penalty": 1.0,
@@ -2081,27 +2985,24 @@
       "action": "important",
       "category": "hard_skill",
       "taxonomy_category": "Machine Learning",
-      "candidate_signal": 0.2142,
+      "candidate_signal": 0.0,
       "gap_reason": "direct JD gap is high"
-    },
-    {
-      "skill": "python",
-      "gap": 0.9886,
-      "importance": 5.1346,
-      "resume_score": 2.3101,
-      "jd_score": 5.1346,
-      "raw_importance": 5.1346,
-      "priority_penalty": 1.0,
-      "level": "Slight Gap",
-      "action": "low priority",
-      "category": "hard_skill",
-      "taxonomy_category": "Programming",
-      "candidate_signal": 0.307,
-      "gap_reason": "JD still expects deeper strength than the current evidence"
     }
   ],
   "graph": {
     "nodes": [
+      {
+        "id": "linux",
+        "data": {
+          "label": "linux",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.3304,
+          "priority": 0.0,
+          "title": "Linux Journey<br>OverTheWire Bandit"
+        }
+      },
       {
         "id": "computer graphics",
         "data": {
@@ -2115,75 +3016,39 @@
         }
       },
       {
-        "id": "cuda",
+        "id": "java",
         "data": {
-          "label": "cuda",
-          "status": "missing",
-          "color": "red",
-          "size": 34,
-          "difficulty": 1.0,
-          "priority": 32.391,
-          "title": "CUDA Documentation<br>CUDA Guided Practice"
+          "label": "java",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.5951,
+          "priority": 0.0,
+          "title": "Dev.java Tutorials<br>Java Programming MOOC"
         }
       },
       {
         "id": "python",
         "data": {
           "label": "python",
-          "status": "missing",
-          "color": "red",
-          "size": 34,
+          "status": "known",
+          "color": "green",
+          "size": 24,
           "difficulty": 0.3348,
-          "priority": 145.2732,
+          "priority": 0.0,
           "title": "Python Official Tutorial<br>Automate the Boring Stuff with Python"
         }
       },
       {
-        "id": "sql",
+        "id": "git",
         "data": {
-          "label": "sql",
+          "label": "git",
           "status": "known",
           "color": "green",
           "size": 24,
-          "difficulty": 0.4315,
+          "difficulty": 0.4357,
           "priority": 0.0,
-          "title": "SQLBolt<br>Mode SQL Tutorial"
-        }
-      },
-      {
-        "id": "large language models",
-        "data": {
-          "label": "large language models",
-          "status": "missing",
-          "color": "red",
-          "size": 34,
-          "difficulty": 1.0,
-          "priority": 32.391,
-          "title": "Large Language Models Learning Path<br>Large Language Models Hands-on Practice"
-        }
-      },
-      {
-        "id": "deep learning",
-        "data": {
-          "label": "deep learning",
-          "status": "missing",
-          "color": "red",
-          "size": 34,
-          "difficulty": 0.5435,
-          "priority": 96.1107,
-          "title": "DeepLearning.AI Neural Networks and Deep Learning<br>Dive into Deep Learning"
-        }
-      },
-      {
-        "id": "statistics",
-        "data": {
-          "label": "statistics",
-          "status": "next_step",
-          "color": "yellow",
-          "size": 30,
-          "difficulty": 0.6266,
-          "priority": 72.4433,
-          "title": "Khan Academy Statistics and Probability<br>StatQuest Statistics Fundamentals"
+          "title": "Pro Git Book<br>Git SCM Documentation"
         }
       },
       {
@@ -2199,66 +3064,118 @@
         }
       },
       {
-        "id": "numpy",
+        "id": "large language models",
         "data": {
-          "label": "numpy",
-          "status": "known",
-          "color": "green",
-          "size": 24,
-          "difficulty": 1.2768,
-          "priority": 0.0,
-          "title": "NumPy Documentation<br>SciPy Lectures: NumPy"
+          "label": "large language models",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 1.0,
+          "priority": 32.391,
+          "title": "Large Language Models Learning Path<br>Large Language Models Hands-on Practice"
         }
       },
       {
-        "id": "pandas",
+        "id": "cuda",
         "data": {
-          "label": "pandas",
+          "label": "cuda",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 1.0,
+          "priority": 32.391,
+          "title": "CUDA Documentation<br>CUDA Guided Practice"
+        }
+      },
+      {
+        "id": "debugging",
+        "data": {
+          "label": "debugging",
           "status": "known",
           "color": "green",
           "size": 24,
-          "difficulty": 0.7636,
+          "difficulty": 0.4494,
           "priority": 0.0,
-          "title": "Kaggle Pandas<br>Pandas User Guide"
+          "title": "The Debugging Book<br>VS Code Debugging Guide"
+        }
+      },
+      {
+        "id": "deep learning",
+        "data": {
+          "label": "deep learning",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.5435,
+          "priority": 96.1107,
+          "title": "DeepLearning.AI Neural Networks and Deep Learning<br>Dive into Deep Learning"
+        }
+      },
+      {
+        "id": "llms",
+        "data": {
+          "label": "llms",
+          "status": "missing",
+          "color": "red",
+          "size": 34,
+          "difficulty": 0.7851,
+          "priority": 40.2555,
+          "title": "LLMs Learning Path<br>LLMs Hands-on Practice"
+        }
+      },
+      {
+        "id": "arduino",
+        "data": {
+          "label": "arduino",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.7973,
+          "priority": 0.0,
+          "title": "Arduino Documentation<br>Arduino Project Hub"
+        }
+      },
+      {
+        "id": "css",
+        "data": {
+          "label": "css",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 0.7953,
+          "priority": 0.0,
+          "title": "MDN CSS Guide<br>freeCodeCamp CSS"
+        }
+      },
+      {
+        "id": "file systems",
+        "data": {
+          "label": "file systems",
+          "status": "known",
+          "color": "green",
+          "size": 24,
+          "difficulty": 1.319,
+          "priority": 0.0,
+          "title": "OSTEP: File System Implementation<br>MIT Operating Systems Notes"
         }
       }
     ],
     "edges": [
       {
         "source": "python",
-        "target": "pandas",
-        "weight": 2.0
-      },
-      {
-        "source": "python",
-        "target": "numpy",
-        "weight": 2.0
-      },
-      {
-        "source": "python",
         "target": "machine learning",
         "weight": 3.0
-      },
-      {
-        "source": "statistics",
-        "target": "machine learning",
-        "weight": 2.0
       },
       {
         "source": "machine learning",
         "target": "deep learning",
         "weight": 2.0
-      },
-      {
-        "source": "numpy",
-        "target": "statistics",
-        "weight": 2.0
       }
     ],
     "meta": {
-      "node_count": 10,
-      "edge_count": 6,
-      "roadmap_node_count": 7
+      "node_count": 14,
+      "edge_count": 2,
+      "roadmap_node_count": 6
     }
   }
 }

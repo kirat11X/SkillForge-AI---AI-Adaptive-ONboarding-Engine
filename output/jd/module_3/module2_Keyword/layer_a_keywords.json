@@ -38,15 +38,15 @@
     ],
     "mentions": 2,
     "contexts": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Business",
     "sub_category": "Enterprise Tools",
     "sections": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ]
   },
   "deep learning": {
@@ -104,15 +104,15 @@
     ],
     "mentions": 4,
     "contexts": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Systems",
     "sub_category": "Infrastructure",
     "sections": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ]
   },
   "android": {
@@ -122,15 +122,15 @@
     ],
     "mentions": 2,
     "contexts": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Mobile",
     "sub_category": "App Development",
     "sections": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ]
   },
   "operating systems": {
@@ -140,15 +140,15 @@
     ],
     "mentions": 2,
     "contexts": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Systems",
     "sub_category": "Infrastructure",
     "sections": [
-      "general",
-      "experience"
+      "experience",
+      "general"
     ]
   },
   "large language models": {

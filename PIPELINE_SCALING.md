@@ -5,7 +5,7 @@ This note explains how scores are scaled across modules so the outputs stay inte
 ## Canonicalization First
 
 - Skills are canonicalized before scoring.
-- The shared alias map lives in [`ArtPark_hacks/ArtPark_hacks/module5/profession_mapping_engine_dataset_v7.json`](/home/kirat/artpark/ArtPark_hacks/ArtPark_hacks/module5/profession_mapping_engine_dataset_v7.json).
+- The shared alias map lives in [`skillforge Ai/skillforge Ai/module5/profession_mapping_engine_dataset_v7.json`](skillforge Ai/skillforge Ai/module5/profession_mapping_engine_dataset_v7.json).
 - Examples:
   - `api` -> `apis`
   - `natural language processing` -> `nlp`
@@ -180,7 +180,7 @@ Important knobs:
 
 Most shared tuning values live in:
 
-- [`ArtPark_hacks/ArtPark_hacks/module5/profession_mapping_engine_dataset_v7.json`](/home/kirat/artpark/ArtPark_hacks/ArtPark_hacks/module5/profession_mapping_engine_dataset_v7.json)
+- [`skillforge Ai/skillforge Ai/module5/profession_mapping_engine_dataset_v7.json`](skillforge Ai/skillforge Ai/module5/profession_mapping_engine_dataset_v7.json)
 
 Use that file as the main calibration surface for:
 
