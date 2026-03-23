@@ -1,5 +1,5 @@
 {
-  "arduino": {
+  "apis": {
     "confidence": 0.65,
     "source": [
       "keyword"
@@ -9,13 +9,29 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Hardware",
-    "sub_category": "Embedded & IoT",
+    "taxonomy_category": "Backend",
+    "sub_category": "Services",
     "sections": [
       "general"
     ]
   },
   "automation": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Cloud",
+    "sub_category": "DevOps",
+    "sections": [
+      "general"
+    ]
+  },
+  "boosting": {
     "confidence": 0.85,
     "source": [
       "keyword"
@@ -25,8 +41,24 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "branding": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Design",
+    "sub_category": "UX UI",
     "sections": [
       "general"
     ]
@@ -47,7 +79,23 @@
       "general"
     ]
   },
-  "css": {
+  "computer vision": {
+    "confidence": 0.75,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "data analysis": {
     "confidence": 0.65,
     "source": [
       "keyword"
@@ -57,29 +105,13 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Frontend",
-    "sub_category": "Web",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
     "sections": [
       "general"
     ]
   },
-  "curiosity": {
-    "confidence": 0.65,
-    "source": [
-      "keyword"
-    ],
-    "mentions": 1,
-    "contexts": [
-      "general"
-    ],
-    "category": "soft_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
-    "sections": [
-      "general"
-    ]
-  },
-  "debugging": {
+  "embeddings": {
     "confidence": 0.65,
     "source": [
       "keyword"
@@ -89,40 +121,24 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
       "general"
     ]
   },
-  "execution": {
-    "confidence": 0.85,
+  "feature engineering": {
+    "confidence": 0.75,
     "source": [
       "keyword"
     ],
-    "mentions": 3,
+    "mentions": 2,
     "contexts": [
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Product",
-    "sub_category": "Project Management",
-    "sections": [
-      "general"
-    ]
-  },
-  "file systems": {
-    "confidence": 0.65,
-    "source": [
-      "keyword"
-    ],
-    "mentions": 1,
-    "contexts": [
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Systems",
-    "sub_category": "Infrastructure",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
       "general"
     ]
@@ -144,11 +160,11 @@
     ]
   },
   "github": {
-    "confidence": 0.95,
+    "confidence": 0.85,
     "source": [
       "keyword"
     ],
-    "mentions": 4,
+    "mentions": 3,
     "contexts": [
       "general"
     ],
@@ -159,34 +175,50 @@
       "general"
     ]
   },
-  "integration": {
-    "confidence": 0.95,
+  "hyperparameter tuning": {
+    "confidence": 0.65,
     "source": [
       "keyword"
     ],
-    "mentions": 4,
+    "mentions": 1,
     "contexts": [
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Backend",
-    "sub_category": "Services",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
       "general"
     ]
   },
-  "java": {
-    "confidence": 0.95,
+  "javascript": {
+    "confidence": 0.65,
     "source": [
       "keyword"
     ],
-    "mentions": 4,
+    "mentions": 1,
     "contexts": [
       "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Programming",
     "sub_category": "Languages",
+    "sections": [
+      "general"
+    ]
+  },
+  "leadership": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "soft_skill",
+    "taxonomy_category": "Soft Skills",
+    "sub_category": "Core",
     "sections": [
       "general"
     ]
@@ -207,7 +239,23 @@
       "general"
     ]
   },
-  "planning": {
+  "llms": {
+    "confidence": 0.75,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "logistics": {
     "confidence": 0.65,
     "source": [
       "keyword"
@@ -216,19 +264,83 @@
     "contexts": [
       "general"
     ],
-    "category": "soft_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
+    "category": "hard_skill",
+    "taxonomy_category": "Business",
+    "sub_category": "Industry Systems",
+    "sections": [
+      "general"
+    ]
+  },
+  "machine learning": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "matplotlib": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "sections": [
+      "general"
+    ]
+  },
+  "numpy": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "sections": [
+      "general"
+    ]
+  },
+  "pandas": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
     "sections": [
       "general"
     ]
   },
   "python": {
-    "confidence": 0.75,
+    "confidence": 0.85,
     "source": [
       "keyword"
     ],
-    "mentions": 2,
+    "mentions": 3,
     "contexts": [
       "general"
     ],
@@ -239,7 +351,23 @@
       "general"
     ]
   },
-  "refactoring": {
+  "rag": {
+    "confidence": 0.95,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 4,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "random forest": {
     "confidence": 0.65,
     "source": [
       "keyword"
@@ -249,13 +377,13 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
       "general"
     ]
   },
-  "robotics": {
+  "reliability": {
     "confidence": 0.65,
     "source": [
       "keyword"
@@ -265,18 +393,114 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Hardware",
-    "sub_category": "Embedded & IoT",
+    "taxonomy_category": "Cloud",
+    "sub_category": "DevOps",
     "sections": [
       "general"
     ]
   },
-  "teams": {
+  "rest api": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Backend",
+    "sub_category": "Services",
+    "sections": [
+      "general"
+    ]
+  },
+  "sampling": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "sections": [
+      "general"
+    ]
+  },
+  "scikit-learn": {
     "confidence": 0.75,
     "source": [
       "keyword"
     ],
     "mentions": 2,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "segmentation": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "sql": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
+    "sections": [
+      "general"
+    ]
+  },
+  "strategy": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Product",
+    "sub_category": "Project Management",
+    "sections": [
+      "general"
+    ]
+  },
+  "teams": {
+    "confidence": 0.65,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
     "contexts": [
       "general"
     ],
@@ -288,12 +512,13 @@
     ]
   },
   "__cgpa__": {
-    "value": 8.4,
-    "raw": "CGPA: 8.4"
+    "value": 8.82,
+    "raw": "CGPA: 8.82/10",
+    "scale": "10"
   },
   "__meta__": {
-    "input_path": "output/resume/module_1/Arnav_Sachdeva_SWE_Intern_Resume.txt",
+    "input_path": "output/resume/module_1/main_Resume-2.txt",
     "semantic_device": "cpu",
-    "skills_count": 18
+    "skills_count": 32
   }
 }

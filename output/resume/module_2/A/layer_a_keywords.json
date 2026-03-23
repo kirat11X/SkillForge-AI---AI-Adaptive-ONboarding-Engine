@@ -1,57 +1,109 @@
 {
-  "github": {
+  "node.js": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Backend",
+    "sub_category": "Services",
+    "sections": [
+      "experience"
+    ]
+  },
+  "rest api": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Backend",
+    "sub_category": "Services",
+    "sections": [
+      "experience"
+    ]
+  },
+  "representational state transfer": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 2,
     "contexts": [
+      "general",
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "General",
+    "sub_category": "General",
+    "sections": [
+      "general",
+      "experience"
+    ]
+  },
+  "application programming interface": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "General",
+    "sub_category": "General",
+    "sections": [
+      "experience"
+    ]
+  },
+  "computer vision": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "project",
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
+      "project",
       "general"
     ]
   },
-  "hypertext transfer protocol secure": {
+  "python": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 3,
     "contexts": [
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "General",
-    "sub_category": "General",
-    "sections": [
-      "general"
-    ]
-  },
-  "java": {
-    "confidence": 1.0,
-    "source": [
-      "keyword"
-    ],
-    "mentions": 4,
-    "contexts": [
       "project",
-      "skills",
-      "general"
+      "general",
+      "skills"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Programming",
     "sub_category": "Languages",
     "sections": [
       "project",
-      "skills",
-      "general"
+      "general",
+      "skills"
     ]
   },
-  "file systems": {
+  "sampling": {
     "confidence": 1.0,
     "source": [
       "keyword"
@@ -61,8 +113,56 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Systems",
-    "sub_category": "Infrastructure",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "sections": [
+      "general"
+    ]
+  },
+  "artificial intelligence": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "segmentation": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "reliability": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Cloud",
+    "sub_category": "DevOps",
     "sections": [
       "general"
     ]
@@ -72,20 +172,54 @@
     "source": [
       "keyword"
     ],
-    "mentions": 3,
+    "mentions": 1,
     "contexts": [
-      "skills",
       "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Cloud",
     "sub_category": "DevOps",
     "sections": [
-      "skills",
       "general"
     ]
   },
-  "planning": {
+  "llms": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general",
+      "skills"
+    ]
+  },
+  "rag": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 3,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general",
+      "skills"
+    ]
+  },
+  "natural language processing": {
     "confidence": 1.0,
     "source": [
       "keyword"
@@ -95,82 +229,130 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
       "general"
     ]
   },
-  "execution": {
-    "confidence": 1.0,
-    "source": [
-      "keyword"
-    ],
-    "mentions": 3,
-    "contexts": [
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Product",
-    "sub_category": "Project Management",
-    "sections": [
-      "general"
-    ]
-  },
-  "integration": {
+  "machine learning": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 4,
     "contexts": [
-      "project",
-      "skills",
-      "general"
+      "general",
+      "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Backend",
-    "sub_category": "Services",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
-      "project",
-      "skills",
-      "general"
+      "general",
+      "skills"
     ]
   },
-  "python": {
+  "scikit-learn": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 2,
     "contexts": [
-      "project",
+      "general",
       "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Programming",
-    "sub_category": "Languages",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
-      "project",
+      "general",
       "skills"
     ]
   },
-  "teams": {
+  "boosting": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 3,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general",
+      "skills"
+    ]
+  },
+  "random forest": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general"
+    ]
+  },
+  "feature engineering": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 2,
     "contexts": [
-      "education",
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "general",
+      "skills"
+    ]
+  },
+  "hyperparameter tuning": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Business",
-    "sub_category": "Enterprise Tools",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "sections": [
-      "education",
       "general"
+    ]
+  },
+  "embeddings": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "sections": [
+      "skills"
     ]
   },
   "c": {
@@ -189,7 +371,7 @@
       "skills"
     ]
   },
-  "user interface": {
+  "javascript": {
     "confidence": 1.0,
     "source": [
       "keyword"
@@ -199,13 +381,13 @@
       "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "General",
-    "sub_category": "General",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
     "sections": [
       "skills"
     ]
   },
-  "linux": {
+  "sql": {
     "confidence": 1.0,
     "source": [
       "keyword"
@@ -215,8 +397,72 @@
       "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Systems",
-    "sub_category": "Infrastructure",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
+    "sections": [
+      "skills"
+    ]
+  },
+  "data analysis": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "sections": [
+      "skills"
+    ]
+  },
+  "pandas": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "sections": [
+      "skills"
+    ]
+  },
+  "numpy": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "sections": [
+      "skills"
+    ]
+  },
+  "matplotlib": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
     "sections": [
       "skills"
     ]
@@ -228,22 +474,6 @@
     ],
     "mentions": 1,
     "contexts": [
-      "skills"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
-    "sections": [
-      "skills"
-    ]
-  },
-  "debugging": {
-    "confidence": 1.0,
-    "source": [
-      "keyword"
-    ],
-    "mentions": 1,
-    "contexts": [
       "general"
     ],
     "category": "hard_skill",
@@ -253,7 +483,7 @@
       "general"
     ]
   },
-  "refactoring": {
+  "linux": {
     "confidence": 1.0,
     "source": [
       "keyword"
@@ -263,13 +493,13 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
+    "taxonomy_category": "Systems",
+    "sub_category": "Infrastructure",
     "sections": [
       "general"
     ]
   },
-  "robotics": {
+  "apis": {
     "confidence": 1.0,
     "source": [
       "keyword"
@@ -279,67 +509,99 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Hardware",
-    "sub_category": "Embedded & IoT",
+    "taxonomy_category": "Backend",
+    "sub_category": "Services",
     "sections": [
       "general"
     ]
   },
-  "arduino": {
+  "teams": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 1,
     "contexts": [
-      "general"
+      "education"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Hardware",
-    "sub_category": "Embedded & IoT",
+    "taxonomy_category": "Business",
+    "sub_category": "Enterprise Tools",
     "sections": [
-      "general"
+      "education"
     ]
   },
-  "curiosity": {
+  "leadership": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 1,
     "contexts": [
-      "general"
+      "education"
     ],
-    "category": "hard_skill",
+    "category": "soft_skill",
     "taxonomy_category": "Soft Skills",
     "sub_category": "Core",
     "sections": [
-      "general"
+      "education"
     ]
   },
-  "css": {
+  "branding": {
     "confidence": 1.0,
     "source": [
       "keyword"
     ],
     "mentions": 1,
     "contexts": [
-      "general"
+      "experience"
     ],
-    "category": "hard_skill",
-    "taxonomy_category": "Frontend",
-    "sub_category": "Web",
+    "category": "soft_skill",
+    "taxonomy_category": "Design",
+    "sub_category": "UX UI",
     "sections": [
-      "general"
+      "experience"
+    ]
+  },
+  "strategy": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience"
+    ],
+    "category": "soft_skill",
+    "taxonomy_category": "Product",
+    "sub_category": "Project Management",
+    "sections": [
+      "experience"
+    ]
+  },
+  "logistics": {
+    "confidence": 1.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience"
+    ],
+    "category": "soft_skill",
+    "taxonomy_category": "Business",
+    "sub_category": "Industry Systems",
+    "sections": [
+      "experience"
     ]
   },
   "__cgpa__": {
-    "value": 8.4,
-    "raw": "cgpa: 8.4",
+    "value": 8.82,
+    "raw": "cgpa: 8.82",
     "scale": "4"
   },
   "__meta__": {
-    "skills_count": 20,
+    "skills_count": 36,
     "semantic_device": "cpu"
   }
 }

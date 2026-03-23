@@ -1,5 +1,63 @@
 {
-  "arduino": {
+  "apis": {
+    "resulting_score": 7.7004,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience",
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "General",
+    "sub_category": "General",
+    "strength_breakdown": {
+      "section_weight": 8.0,
+      "frequency_weight": 2.0,
+      "context_weight": 2.0,
+      "education_score": 0.0,
+      "raw_strength_score": 12.0,
+      "normalized_strength_score": 6.0,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "artificial intelligence": {
+    "resulting_score": 1.5012,
+    "confidence": 0.6,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 1.0,
+      "frequency_weight": 3.1699,
+      "context_weight": 0.0,
+      "education_score": 0.0,
+      "raw_strength_score": 4.1699,
+      "normalized_strength_score": 2.085,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 0.75,
+    "skill_type_multiplier": 1.2
+  },
+  "automation": {
     "resulting_score": 1.9251,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
@@ -13,8 +71,8 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Hardware",
-    "sub_category": "Embedded & IoT",
+    "taxonomy_category": "Cloud",
+    "sub_category": "DevOps",
     "strength_breakdown": {
       "section_weight": 1.0,
       "frequency_weight": 2.0,
@@ -28,7 +86,7 @@
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "automation": {
+  "boosting": {
     "resulting_score": 5.0197,
     "confidence": 0.94,
     "keyword_confidence": 1.0,
@@ -43,8 +101,8 @@
       "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Cloud",
-    "sub_category": "DevOps",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "strength_breakdown": {
       "section_weight": 3.0,
       "frequency_weight": 4.0,
@@ -57,6 +115,36 @@
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
+  },
+  "branding": {
+    "resulting_score": 2.1524,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience",
+      "general"
+    ],
+    "category": "soft_skill",
+    "taxonomy_category": "Design",
+    "sub_category": "UX UI",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.75,
+      "education_score": 0.0,
+      "raw_strength_score": 5.75,
+      "normalized_strength_score": 2.875,
+      "weight_profile": "soft_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 0.7
   },
   "c": {
     "resulting_score": 1.62,
@@ -114,8 +202,38 @@
     "verification_multiplier": 0.75,
     "skill_type_multiplier": 1.2
   },
-  "css": {
-    "resulting_score": 1.9251,
+  "computer vision": {
+    "resulting_score": 6.9942,
+    "confidence": 0.9,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.75,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general",
+      "project"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 6.5,
+      "frequency_weight": 3.1699,
+      "context_weight": 1.0,
+      "education_score": 0.0,
+      "raw_strength_score": 10.6699,
+      "normalized_strength_score": 5.335,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "data analysis": {
+    "resulting_score": 4.2801,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
     "semantic_confidence": 0.65,
@@ -123,28 +241,29 @@
       "keyword",
       "semantic"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "contexts": [
-      "general"
+      "general",
+      "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Frontend",
-    "sub_category": "Web",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
     "strength_breakdown": {
-      "section_weight": 1.0,
-      "frequency_weight": 2.0,
-      "context_weight": 0.0,
+      "section_weight": 3.0,
+      "frequency_weight": 3.1699,
+      "context_weight": 0.5,
       "education_score": 0.0,
-      "raw_strength_score": 3.0,
-      "normalized_strength_score": 1.5,
+      "raw_strength_score": 6.6699,
+      "normalized_strength_score": 3.335,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "curiosity": {
-    "resulting_score": 1.9251,
+  "embeddings": {
+    "resulting_score": 4.2801,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
     "semantic_confidence": 0.65,
@@ -152,27 +271,58 @@
       "keyword",
       "semantic"
     ],
-    "mentions": 1,
+    "mentions": 2,
     "contexts": [
-      "general"
+      "general",
+      "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "strength_breakdown": {
-      "section_weight": 1.0,
-      "frequency_weight": 2.0,
-      "context_weight": 0.0,
+      "section_weight": 3.0,
+      "frequency_weight": 3.1699,
+      "context_weight": 0.5,
       "education_score": 0.0,
-      "raw_strength_score": 3.0,
-      "normalized_strength_score": 1.5,
+      "raw_strength_score": 6.6699,
+      "normalized_strength_score": 3.335,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "debugging": {
+  "feature engineering": {
+    "resulting_score": 4.3722,
+    "confidence": 0.9,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.75,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 3.1699,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 6.6699,
+      "normalized_strength_score": 3.335,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "git": {
     "resulting_score": 1.9251,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
@@ -201,8 +351,390 @@
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "execution": {
-    "resulting_score": 3.3465,
+  "github": {
+    "resulting_score": 1.5075,
+    "confidence": 0.34,
+    "keyword_confidence": 0.0,
+    "semantic_confidence": 0.85,
+    "source": [
+      "semantic"
+    ],
+    "mentions": 3,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Quality",
+    "sub_category": "Engineering Practices",
+    "strength_breakdown": {
+      "section_weight": 1.0,
+      "frequency_weight": 4.0,
+      "context_weight": 0.0,
+      "education_score": 0.0,
+      "raw_strength_score": 5.0,
+      "normalized_strength_score": 2.5,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 0.75,
+    "skill_type_multiplier": 1.2
+  },
+  "hyperparameter tuning": {
+    "resulting_score": 1.9251,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 1.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.0,
+      "education_score": 0.0,
+      "raw_strength_score": 3.0,
+      "normalized_strength_score": 1.5,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "javascript": {
+    "resulting_score": 3.5293,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 5.5,
+      "normalized_strength_score": 2.75,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "leadership": {
+    "resulting_score": 1.123,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "education",
+      "general"
+    ],
+    "category": "soft_skill",
+    "taxonomy_category": "Soft Skills",
+    "sub_category": "Core",
+    "strength_breakdown": {
+      "section_weight": 1.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.0,
+      "education_score": 0.0,
+      "raw_strength_score": 3.0,
+      "normalized_strength_score": 1.5,
+      "weight_profile": "soft_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 0.7
+  },
+  "linux": {
+    "resulting_score": 1.9251,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Systems",
+    "sub_category": "Infrastructure",
+    "strength_breakdown": {
+      "section_weight": 1.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.0,
+      "education_score": 0.0,
+      "raw_strength_score": 3.0,
+      "normalized_strength_score": 1.5,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "llms": {
+    "resulting_score": 4.3722,
+    "confidence": 0.9,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.75,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 3.1699,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 6.6699,
+      "normalized_strength_score": 3.335,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "logistics": {
+    "resulting_score": 2.1524,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience",
+      "general"
+    ],
+    "category": "soft_skill",
+    "taxonomy_category": "Business",
+    "sub_category": "Industry Systems",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.75,
+      "education_score": 0.0,
+      "raw_strength_score": 5.75,
+      "normalized_strength_score": 2.875,
+      "weight_profile": "soft_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 0.7
+  },
+  "machine learning": {
+    "resulting_score": 5.2259,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 4,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 4.6439,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 8.1439,
+      "normalized_strength_score": 4.0719,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "matplotlib": {
+    "resulting_score": 3.5293,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 5.5,
+      "normalized_strength_score": 2.75,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "natural language processing": {
+    "resulting_score": 1.08,
+    "confidence": 0.6,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 1.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.0,
+      "education_score": 0.0,
+      "raw_strength_score": 3.0,
+      "normalized_strength_score": 1.5,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 0.75,
+    "skill_type_multiplier": 1.2
+  },
+  "nodejs": {
+    "resulting_score": 3.96,
+    "confidence": 0.6,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.0,
+    "source": [
+      "keyword"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "experience"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Backend",
+    "sub_category": "Services",
+    "strength_breakdown": {
+      "section_weight": 7.0,
+      "frequency_weight": 2.0,
+      "context_weight": 2.0,
+      "education_score": 0.0,
+      "raw_strength_score": 11.0,
+      "normalized_strength_score": 5.5,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 0.75,
+    "skill_type_multiplier": 1.2
+  },
+  "numpy": {
+    "resulting_score": 3.5293,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 5.5,
+      "normalized_strength_score": 2.75,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "pandas": {
+    "resulting_score": 3.5293,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 5.5,
+      "normalized_strength_score": 2.75,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "python": {
+    "resulting_score": 9.3702,
     "confidence": 0.94,
     "keyword_confidence": 1.0,
     "semantic_confidence": 0.85,
@@ -212,25 +744,57 @@
     ],
     "mentions": 3,
     "contexts": [
-      "general"
+      "general",
+      "project",
+      "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Product",
-    "sub_category": "Project Management",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
     "strength_breakdown": {
-      "section_weight": 1.0,
+      "section_weight": 8.5,
       "frequency_weight": 4.0,
-      "context_weight": 0.0,
+      "context_weight": 1.5,
       "education_score": 0.0,
-      "raw_strength_score": 5.0,
-      "normalized_strength_score": 2.5,
+      "raw_strength_score": 14.0,
+      "normalized_strength_score": 7.0,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "file systems": {
+  "rag": {
+    "resulting_score": 5.563,
+    "confidence": 0.98,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.95,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 4,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 4.6439,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 8.1439,
+      "normalized_strength_score": 4.0719,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "random forest": {
     "resulting_score": 1.9251,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
@@ -244,8 +808,8 @@
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Systems",
-    "sub_category": "Infrastructure",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
     "strength_breakdown": {
       "section_weight": 1.0,
       "frequency_weight": 2.0,
@@ -259,8 +823,8 @@
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "git": {
-    "resulting_score": 3.5293,
+  "reliability": {
+    "resulting_score": 1.9251,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
     "semantic_confidence": 0.65,
@@ -270,145 +834,172 @@
     ],
     "mentions": 1,
     "contexts": [
-      "general",
-      "skills"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
-    "strength_breakdown": {
-      "section_weight": 3.0,
-      "frequency_weight": 2.0,
-      "context_weight": 0.5,
-      "education_score": 0.0,
-      "raw_strength_score": 5.5,
-      "normalized_strength_score": 2.75,
-      "weight_profile": "hard_skill",
-      "soft_skill_cap_applied": false
-    },
-    "verification_multiplier": 1.15,
-    "skill_type_multiplier": 1.2
-  },
-  "github": {
-    "resulting_score": 3.8553,
-    "confidence": 0.98,
-    "keyword_confidence": 1.0,
-    "semantic_confidence": 0.95,
-    "source": [
-      "keyword",
-      "semantic"
-    ],
-    "mentions": 4,
-    "contexts": [
       "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
+    "taxonomy_category": "Cloud",
+    "sub_category": "DevOps",
     "strength_breakdown": {
       "section_weight": 1.0,
-      "frequency_weight": 4.6439,
+      "frequency_weight": 2.0,
       "context_weight": 0.0,
       "education_score": 0.0,
-      "raw_strength_score": 5.6439,
-      "normalized_strength_score": 2.8219,
+      "raw_strength_score": 3.0,
+      "normalized_strength_score": 1.5,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "hypertext transfer protocol secure": {
-    "resulting_score": 1.8,
+  "representational state transfer": {
+    "resulting_score": 4.7412,
     "confidence": 0.6,
     "keyword_confidence": 1.0,
     "semantic_confidence": 0.0,
     "source": [
       "keyword"
     ],
-    "mentions": 3,
+    "mentions": 2,
     "contexts": [
+      "experience",
       "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "General",
     "sub_category": "General",
     "strength_breakdown": {
-      "section_weight": 1.0,
-      "frequency_weight": 4.0,
-      "context_weight": 0.0,
+      "section_weight": 8.0,
+      "frequency_weight": 3.1699,
+      "context_weight": 2.0,
       "education_score": 0.0,
-      "raw_strength_score": 5.0,
-      "normalized_strength_score": 2.5,
+      "raw_strength_score": 13.1699,
+      "normalized_strength_score": 6.585,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 0.75,
     "skill_type_multiplier": 1.2
   },
-  "integration": {
-    "resulting_score": 10.0,
-    "confidence": 0.98,
+  "rest api": {
+    "resulting_score": 7.7004,
+    "confidence": 0.86,
     "keyword_confidence": 1.0,
-    "semantic_confidence": 0.95,
+    "semantic_confidence": 0.65,
     "source": [
       "keyword",
       "semantic"
     ],
-    "mentions": 4,
+    "mentions": 1,
     "contexts": [
-      "general",
-      "project",
-      "skills"
+      "experience",
+      "general"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Backend",
     "sub_category": "Services",
     "strength_breakdown": {
-      "section_weight": 8.5,
-      "frequency_weight": 4.6439,
-      "context_weight": 1.5,
+      "section_weight": 8.0,
+      "frequency_weight": 2.0,
+      "context_weight": 2.0,
       "education_score": 0.0,
-      "raw_strength_score": 14.6439,
-      "normalized_strength_score": 7.3219,
+      "raw_strength_score": 12.0,
+      "normalized_strength_score": 6.0,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "java": {
-    "resulting_score": 10.0,
-    "confidence": 0.98,
+  "sampling": {
+    "resulting_score": 1.9251,
+    "confidence": 0.86,
     "keyword_confidence": 1.0,
-    "semantic_confidence": 0.95,
+    "semantic_confidence": 0.65,
     "source": [
       "keyword",
       "semantic"
     ],
-    "mentions": 4,
+    "mentions": 1,
     "contexts": [
-      "general",
-      "project",
-      "skills"
+      "general"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Programming",
-    "sub_category": "Languages",
+    "taxonomy_category": "Data",
+    "sub_category": "Analytics",
     "strength_breakdown": {
-      "section_weight": 8.5,
-      "frequency_weight": 4.6439,
-      "context_weight": 1.5,
+      "section_weight": 1.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.0,
       "education_score": 0.0,
-      "raw_strength_score": 14.6439,
-      "normalized_strength_score": 7.3219,
+      "raw_strength_score": 3.0,
+      "normalized_strength_score": 1.5,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "linux": {
+  "scikit-learn": {
+    "resulting_score": 4.3722,
+    "confidence": 0.9,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.75,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 2,
+    "contexts": [
+      "general",
+      "skills"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 3.0,
+      "frequency_weight": 3.1699,
+      "context_weight": 0.5,
+      "education_score": 0.0,
+      "raw_strength_score": 6.6699,
+      "normalized_strength_score": 3.335,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "segmentation": {
+    "resulting_score": 1.9251,
+    "confidence": 0.86,
+    "keyword_confidence": 1.0,
+    "semantic_confidence": 0.65,
+    "source": [
+      "keyword",
+      "semantic"
+    ],
+    "mentions": 1,
+    "contexts": [
+      "general"
+    ],
+    "category": "hard_skill",
+    "taxonomy_category": "Machine Learning",
+    "sub_category": "AI",
+    "strength_breakdown": {
+      "section_weight": 1.0,
+      "frequency_weight": 2.0,
+      "context_weight": 0.0,
+      "education_score": 0.0,
+      "raw_strength_score": 3.0,
+      "normalized_strength_score": 1.5,
+      "weight_profile": "hard_skill",
+      "soft_skill_cap_applied": false
+    },
+    "verification_multiplier": 1.15,
+    "skill_type_multiplier": 1.2
+  },
+  "sql": {
     "resulting_score": 3.5293,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
@@ -423,8 +1014,8 @@
       "skills"
     ],
     "category": "hard_skill",
-    "taxonomy_category": "Systems",
-    "sub_category": "Infrastructure",
+    "taxonomy_category": "Programming",
+    "sub_category": "Languages",
     "strength_breakdown": {
       "section_weight": 3.0,
       "frequency_weight": 2.0,
@@ -438,8 +1029,8 @@
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "planning": {
-    "resulting_score": 1.9251,
+  "strategy": {
+    "resulting_score": 2.1524,
     "confidence": 0.86,
     "keyword_confidence": 1.0,
     "semantic_confidence": 0.65,
@@ -449,123 +1040,35 @@
     ],
     "mentions": 1,
     "contexts": [
+      "experience",
       "general"
     ],
-    "category": "hard_skill",
-    "taxonomy_category": "Soft Skills",
-    "sub_category": "Core",
+    "category": "soft_skill",
+    "taxonomy_category": "Product",
+    "sub_category": "Project Management",
     "strength_breakdown": {
-      "section_weight": 1.0,
+      "section_weight": 3.0,
       "frequency_weight": 2.0,
-      "context_weight": 0.0,
+      "context_weight": 0.75,
       "education_score": 0.0,
-      "raw_strength_score": 3.0,
-      "normalized_strength_score": 1.5,
-      "weight_profile": "hard_skill",
+      "raw_strength_score": 5.75,
+      "normalized_strength_score": 2.875,
+      "weight_profile": "soft_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
-    "skill_type_multiplier": 1.2
-  },
-  "python": {
-    "resulting_score": 8.6329,
-    "confidence": 0.9,
-    "keyword_confidence": 1.0,
-    "semantic_confidence": 0.75,
-    "source": [
-      "keyword",
-      "semantic"
-    ],
-    "mentions": 2,
-    "contexts": [
-      "general",
-      "project",
-      "skills"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Programming",
-    "sub_category": "Languages",
-    "strength_breakdown": {
-      "section_weight": 8.5,
-      "frequency_weight": 3.1699,
-      "context_weight": 1.5,
-      "education_score": 0.0,
-      "raw_strength_score": 13.1699,
-      "normalized_strength_score": 6.585,
-      "weight_profile": "hard_skill",
-      "soft_skill_cap_applied": false
-    },
-    "verification_multiplier": 1.15,
-    "skill_type_multiplier": 1.2
-  },
-  "refactoring": {
-    "resulting_score": 1.9251,
-    "confidence": 0.86,
-    "keyword_confidence": 1.0,
-    "semantic_confidence": 0.65,
-    "source": [
-      "keyword",
-      "semantic"
-    ],
-    "mentions": 1,
-    "contexts": [
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Quality",
-    "sub_category": "Engineering Practices",
-    "strength_breakdown": {
-      "section_weight": 1.0,
-      "frequency_weight": 2.0,
-      "context_weight": 0.0,
-      "education_score": 0.0,
-      "raw_strength_score": 3.0,
-      "normalized_strength_score": 1.5,
-      "weight_profile": "hard_skill",
-      "soft_skill_cap_applied": false
-    },
-    "verification_multiplier": 1.15,
-    "skill_type_multiplier": 1.2
-  },
-  "robotics": {
-    "resulting_score": 1.9251,
-    "confidence": 0.86,
-    "keyword_confidence": 1.0,
-    "semantic_confidence": 0.65,
-    "source": [
-      "keyword",
-      "semantic"
-    ],
-    "mentions": 1,
-    "contexts": [
-      "general"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "Hardware",
-    "sub_category": "Embedded & IoT",
-    "strength_breakdown": {
-      "section_weight": 1.0,
-      "frequency_weight": 2.0,
-      "context_weight": 0.0,
-      "education_score": 0.0,
-      "raw_strength_score": 3.0,
-      "normalized_strength_score": 1.5,
-      "weight_profile": "hard_skill",
-      "soft_skill_cap_applied": false
-    },
-    "verification_multiplier": 1.15,
-    "skill_type_multiplier": 1.2
+    "skill_type_multiplier": 0.7
   },
   "teams": {
-    "resulting_score": 6.142,
-    "confidence": 0.9,
+    "resulting_score": 5.3967,
+    "confidence": 0.86,
     "keyword_confidence": 1.0,
-    "semantic_confidence": 0.75,
+    "semantic_confidence": 0.65,
     "source": [
       "keyword",
       "semantic"
     ],
-    "mentions": 2,
+    "mentions": 1,
     "contexts": [
       "education",
       "general"
@@ -575,64 +1078,42 @@
     "sub_category": "Enterprise Tools",
     "strength_breakdown": {
       "section_weight": 2.0,
-      "frequency_weight": 3.1699,
+      "frequency_weight": 2.0,
       "context_weight": 0.0,
-      "education_score": 4.2,
-      "raw_strength_score": 9.3699,
-      "normalized_strength_score": 4.685,
+      "education_score": 4.41,
+      "raw_strength_score": 8.41,
+      "normalized_strength_score": 4.205,
       "weight_profile": "hard_skill",
       "soft_skill_cap_applied": false
     },
     "verification_multiplier": 1.15,
     "skill_type_multiplier": 1.2
   },
-  "user interface": {
-    "resulting_score": 1.62,
-    "confidence": 0.6,
-    "keyword_confidence": 1.0,
-    "semantic_confidence": 0.0,
-    "source": [
-      "keyword"
-    ],
-    "mentions": 1,
-    "contexts": [
-      "skills"
-    ],
-    "category": "hard_skill",
-    "taxonomy_category": "General",
-    "sub_category": "General",
-    "strength_breakdown": {
-      "section_weight": 2.0,
-      "frequency_weight": 2.0,
-      "context_weight": 0.5,
-      "education_score": 0.0,
-      "raw_strength_score": 4.5,
-      "normalized_strength_score": 2.25,
-      "weight_profile": "hard_skill",
-      "soft_skill_cap_applied": false
-    },
-    "verification_multiplier": 0.75,
-    "skill_type_multiplier": 1.2
-  },
   "__cgpa__": {
-    "value": 8.4,
-    "raw": "CGPA: 8.4"
+    "value": 8.82,
+    "raw": "CGPA: 8.82/10",
+    "scale": "10"
   },
   "__meta__": {
     "keyword_json": "output/resume/module_2/A/layer_a_keywords.json",
     "semantic_json": "output/resume/module_2/B/layer_a_semantic_resume.json",
-    "skills_count": 21,
+    "skills_count": 37,
     "candidate_level_profile": {
-      "resume_text_path": "output/resume/module_1/Arnav_Sachdeva_SWE_Intern_Resume.txt",
+      "resume_text_path": "output/resume/module_1/main_Resume-2.txt",
       "candidate_level": "entry",
       "candidate_level_rank": 0,
       "explicit_years": null,
-      "estimated_experience_months": 0,
-      "estimated_experience_years": 0.0,
+      "estimated_experience_months": 2,
+      "estimated_experience_years": 0.17,
       "student_signal": true,
-      "internship_signal": false,
-      "experience_date_ranges": [],
-      "reason": "education/CGPA signal suggests student or early-career profile; no explicit multi-year experience signal detected in resume"
+      "internship_signal": true,
+      "experience_date_ranges": [
+        {
+          "start": "Jun 2025",
+          "end": "Jul 2025"
+        }
+      ],
+      "reason": "education/CGPA signal suggests student or early-career profile; resume contains internship experience; estimated hands-on experience is about 2 months"
     },
     "scoring_formula": {
       "confidence_fusion": "0.6*keyword_confidence + 0.4*semantic_confidence",

@@ -7,7 +7,7 @@ from pathlib import Path
 PROJECT_DIR = Path(__file__).resolve().parent
 PIPELINE_ROOT = Path("skillforge Ai") / "skillforge Ai"
 
-INPUT_RESUME = Path("Arnav_Sachdeva_SWE_Intern_Resume.pdf")
+INPUT_RESUME = Path("main_Resume-2.pdf")
 INPUT_JOB_DESC = Path("System Software Engineer.pdf")
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR_MODULE_1 = OUTPUT_DIR / "resume" / "module_1"

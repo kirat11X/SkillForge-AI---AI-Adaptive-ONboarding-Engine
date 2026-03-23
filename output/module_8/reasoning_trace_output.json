@@ -13,23 +13,23 @@
   "jd_qualification_assessment": {
     "verdict": "not_qualified",
     "verdict_label": "Not Qualified",
-    "coverage_ratio": 0.21,
+    "coverage_ratio": 0.2749,
     "total_skills": 14,
     "critical_gap_count": 1,
     "moderate_gap_count": 10,
-    "missing_skill_count": 10,
-    "partial_match_count": 2,
+    "missing_skill_count": 8,
+    "partial_match_count": 4,
     "matched_skill_count": 2,
-    "summary": "Overall JD judgement: Not Qualified. Coverage is 21.00% across 14 evaluated JD skills.",
+    "summary": "Overall JD judgement: Not Qualified. Coverage is 27.49% across 14 evaluated JD skills.",
     "reasoning_trace": [
-      "overall JD coverage from Module 4 gap analysis is 21.00%",
+      "overall JD coverage from Module 4 gap analysis is 27.49%",
       "1 critical gap and 10 moderate gaps remain",
-      "10 JD skills are still fully missing, while only 2 skills are good matches",
+      "8 JD skills are still fully missing, while only 2 skills are good matches",
       "current evidence is below the level expected by this JD"
     ]
   },
   "decision_perspective": {
-    "best_fit_role": "Software Engineer",
+    "best_fit_role": "AI Engineer",
     "target_jd_role": "Unknown",
     "roadmap_policy": "Roadmap policy: JD alignment first, role support second.",
     "selection_reason": "Primary roadmap favors JD alignment first whenever direct JD gap evidence is available."
@@ -67,16 +67,6 @@
     },
     {
       "rank": 4,
-      "skill": "llms",
-      "priority_label": "important",
-      "gap_level": "Moderate Gap",
-      "gap_score": 5.97,
-      "jd_score": 5.97,
-      "resume_score": 0.0,
-      "status": "missing"
-    },
-    {
-      "rank": 5,
       "skill": "tensorrt",
       "priority_label": "important",
       "gap_level": "Moderate Gap",
@@ -86,7 +76,7 @@
       "status": "missing"
     },
     {
-      "rank": 6,
+      "rank": 5,
       "skill": "deep learning",
       "priority_label": "important",
       "gap_level": "Moderate Gap",
@@ -96,17 +86,7 @@
       "status": "missing"
     },
     {
-      "rank": 7,
-      "skill": "artificial intelligence",
-      "priority_label": "important",
-      "gap_level": "Moderate Gap",
-      "gap_score": 5.33,
-      "jd_score": 5.33,
-      "resume_score": 0.0,
-      "status": "missing"
-    },
-    {
-      "rank": 8,
+      "rank": 6,
       "skill": "android",
       "priority_label": "important",
       "gap_level": "Moderate Gap",
@@ -116,7 +96,7 @@
       "status": "missing"
     },
     {
-      "rank": 9,
+      "rank": 7,
       "skill": "operating systems",
       "priority_label": "important",
       "gap_level": "Moderate Gap",
@@ -126,7 +106,7 @@
       "status": "missing"
     },
     {
-      "rank": 10,
+      "rank": 8,
       "skill": "signal processing",
       "priority_label": "important",
       "gap_level": "Moderate Gap",
@@ -136,7 +116,7 @@
       "status": "missing"
     },
     {
-      "rank": 11,
+      "rank": 9,
       "skill": "c",
       "priority_label": "important",
       "gap_level": "Moderate Gap",
@@ -146,39 +126,59 @@
       "status": "partial_match"
     },
     {
-      "rank": 12,
+      "rank": 10,
+      "skill": "artificial intelligence",
+      "priority_label": "important",
+      "gap_level": "Moderate Gap",
+      "gap_score": 3.53,
+      "jd_score": 5.33,
+      "resume_score": 1.8,
+      "status": "partial_match"
+    },
+    {
+      "rank": 11,
       "skill": "linux",
+      "priority_label": "important",
+      "gap_level": "Moderate Gap",
+      "gap_score": 3.37,
+      "jd_score": 5.68,
+      "resume_score": 2.31,
+      "status": "partial_match"
+    },
+    {
+      "rank": 12,
+      "skill": "llms",
       "priority_label": "low priority",
       "gap_level": "Slight Gap",
-      "gap_score": 1.44,
-      "jd_score": 5.68,
-      "resume_score": 4.24,
+      "gap_score": 0.72,
+      "jd_score": 5.97,
+      "resume_score": 5.25,
       "status": "partial_match"
     }
   ],
   "roadmap_reasoning": [
     {
-      "skill": "machine learning",
-      "heading": "Machine Learning selected first because:",
+      "skill": "deep learning",
+      "heading": "Deep Learning selected first because:",
       "phase": "Phase 1",
       "track_type": "jd_requirement",
       "reasoning_trace": [
-        "builds capability needed for the mapped role (role score: 5.56)",
-        "no measurable prior exposure appears in the candidate profile (signal: 0.00, gap: 5.56)",
-        "selected because it directly supports high-priority JD gaps like Deep Learning",
-        "has to come earlier because it supports Deep Learning",
-        "opens up later topics such as Deep Learning"
+        "priority skill in the target job requirements (score: 5.56)",
+        "no prior evidence of this skill appears in the candidate profile (signal: 0.00, gap: 5.56)",
+        "comes early in the learning path because later topics depend on it (weight: 2.00)",
+        "ranked highest due to strongest combined priority score (priority: 96.11)"
       ]
     },
     {
-      "skill": "llms",
-      "heading": "LLMs recommended in Phase 1 because:",
+      "skill": "statistics",
+      "heading": "Statistics recommended in Phase 1 because:",
       "phase": "Phase 1",
       "track_type": "jd_requirement",
       "reasoning_trace": [
-        "high importance in target job requirements (score: 5.97)",
-        "candidate profile shows no prior evidence for this skill (signal: 0.00, gap: 5.97)",
-        "retains meaningful path priority in the current roadmap (priority: 40.26)"
+        "required to advance toward the mapped role expectations (role score: 4.73)",
+        "no prior evidence of this skill appears in the candidate profile (signal: 0.00, gap: 4.73)",
+        "selected because it directly supports high-priority JD gaps like Deep Learning",
+        "forms the foundation for Deep Learning"
       ]
     },
     {
@@ -196,34 +196,34 @@
   ],
   "profession_reasoning": [
     {
-      "role": "Software Engineer",
-      "heading": "Software Engineer selected as best-fit profession because:",
+      "role": "AI Engineer",
+      "heading": "AI Engineer selected as best-fit profession because:",
       "reasoning_trace": [
-        "high overlap in 8 matched skills including Java, Python, and Automation",
-        "4 core skills already align with this role, including Java, Debugging, and Git",
-        "1 core gap remains, mainly System Design",
-        "although Software Engineer is the closest fit from current resume evidence, the roadmap still prioritizes direct JD gaps first",
-        "selected as best-fit profession because it received the highest role score (0.58)"
+        "high overlap in 7 matched skills including Python, Computer Vision, and Machine Learning",
+        "3 core skills already align with this role, including Machine Learning, Python, and LLMs",
+        "2 core gaps remain, mainly Deep Learning and PyTorch",
+        "although AI Engineer is the closest fit from current resume evidence, the roadmap still prioritizes direct JD gaps first",
+        "selected as best-fit profession because it received the highest role score (0.34)"
       ]
     },
     {
-      "role": "Systems Engineer",
-      "heading": "Systems Engineer also matches because:",
+      "role": "NLP Engineer",
+      "heading": "NLP Engineer also matches because:",
       "reasoning_trace": [
-        "high overlap in 8 matched skills including Java, Python, and Automation",
-        "4 core skills already align with this role, including Linux, Automation, and Debugging",
-        "1 core gap remains, mainly System Design",
-        "overall role score is still strong at 0.51"
+        "meaningful overlap in 5 matched skills including Python, RAG, and LLMs",
+        "3 core skills already align with this role, including NLP, Python, and LLMs",
+        "1 core gap remains, mainly Transformers",
+        "overall role score is still strong at 0.29"
       ]
     },
     {
-      "role": "Backend Engineer",
-      "heading": "Backend Engineer also matches because:",
+      "role": "Data Scientist",
+      "heading": "Data Scientist also matches because:",
       "reasoning_trace": [
-        "meaningful overlap in 3 matched skills including Java, Python, and Git",
-        "1 core skill already aligns with this role, including Java",
-        "4 core gaps remain, mainly APIs and Rest API",
-        "overall role score is still strong at 0.17"
+        "high overlap in 8 matched skills including Python, Machine Learning, and Data Analysis",
+        "2 core skills already align with this role, including Python and Data Analysis",
+        "3 core gaps remain, mainly Statistics and Probability",
+        "role alignment score remains competitive at 0.28"
       ]
     }
   ],
@@ -261,16 +261,6 @@
   ],
   "contrast_reasoning": [
     {
-      "skill": "tensorrt",
-      "heading": "Tensorrt not selected in the current roadmap because:",
-      "reasoning_trace": [
-        "it still has high JD importance (score: 5.97)",
-        "the candidate profile currently shows no prior evidence for it (signal: 0.00)",
-        "not selected now because it is not strongly connected to the current learning path",
-        "better revisited after the connected core path is completed"
-      ]
-    },
-    {
       "skill": "android",
       "heading": "Android not selected in the current roadmap because:",
       "reasoning_trace": [
@@ -289,7 +279,17 @@
         "not selected now because it is not strongly connected to the current learning path",
         "better revisited after the connected core path is completed"
       ]
+    },
+    {
+      "skill": "signal processing",
+      "heading": "Signal Processing not selected in the current roadmap because:",
+      "reasoning_trace": [
+        "it still has high JD importance (score: 5.27)",
+        "the candidate profile currently shows no prior evidence for it (signal: 0.00)",
+        "not selected now because it is not strongly connected to the current learning path",
+        "better revisited after the connected core path is completed"
+      ]
     }
   ],
-  "report_text": "Reasoning Trace\n\nEvery recommendation in our system is explainable - we do not just give outputs, we show the reasoning behind them.\n\nOverall JD Judgement\nOverall JD judgement: Not Qualified. Coverage is 21.00% across 14 evaluated JD skills.\n- overall JD coverage from Module 4 gap analysis is 21.00%\n- 1 critical gap and 10 moderate gaps remain\n- 10 JD skills are still fully missing, while only 2 skills are good matches\n- current evidence is below the level expected by this JD\n\nDecision Perspective\n- Best-fit role from resume: Software Engineer\n- Target JD perspective: Unknown\n- Roadmap policy: JD alignment first, role support second.\n- Primary roadmap favors JD alignment first whenever direct JD gap evidence is available.\n\nAll JD Gaps With Priority\n- 1. Computer Graphics - top priority | Critical Gap | gap score: 6.50 | JD score: 6.50 | status: missing\n- 2. Cuda - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing\n- 3. Large Language Models - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing\n- 4. LLMs - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing\n- 5. Tensorrt - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing\n- 6. Deep Learning - important | Moderate Gap | gap score: 5.56 | JD score: 5.56 | status: missing\n- 7. Artificial Intelligence - important | Moderate Gap | gap score: 5.33 | JD score: 5.33 | status: missing\n- 8. Android - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing\n- 9. Operating Systems - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing\n- 10. Signal Processing - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing\n- 11. C - important | Moderate Gap | gap score: 3.87 | JD score: 5.81 | status: partial_match\n- 12. Linux - low priority | Slight Gap | gap score: 1.44 | JD score: 5.68 | status: partial_match\n\n1. Roadmap Reasoning\nMachine Learning selected first because:\n- builds capability needed for the mapped role (role score: 5.56)\n- no measurable prior exposure appears in the candidate profile (signal: 0.00, gap: 5.56)\n- selected because it directly supports high-priority JD gaps like Deep Learning\n- has to come earlier because it supports Deep Learning\n- opens up later topics such as Deep Learning\n\nLLMs recommended in Phase 1 because:\n- high importance in target job requirements (score: 5.97)\n- candidate profile shows no prior evidence for this skill (signal: 0.00, gap: 5.97)\n- retains meaningful path priority in the current roadmap (priority: 40.26)\n\nComputer Graphics recommended in Phase 1 because:\n- high importance in target job requirements (score: 6.50)\n- candidate profile shows no prior evidence for this skill (signal: 0.00, gap: 6.50)\n- directly closes a critical JD gap in Computer Graphics\n- retains meaningful path priority in the current roadmap (priority: 38.43)\n\n2. Profession Mapping Reasoning\nSoftware Engineer selected as best-fit profession because:\n- high overlap in 8 matched skills including Java, Python, and Automation\n- 4 core skills already align with this role, including Java, Debugging, and Git\n- 1 core gap remains, mainly System Design\n- although Software Engineer is the closest fit from current resume evidence, the roadmap still prioritizes direct JD gaps first\n- selected as best-fit profession because it received the highest role score (0.58)\n\nSystems Engineer also matches because:\n- high overlap in 8 matched skills including Java, Python, and Automation\n- 4 core skills already align with this role, including Linux, Automation, and Debugging\n- 1 core gap remains, mainly System Design\n- overall role score is still strong at 0.51\n\nBackend Engineer also matches because:\n- meaningful overlap in 3 matched skills including Java, Python, and Git\n- 1 core skill already aligns with this role, including Java\n- 4 core gaps remain, mainly APIs and Rest API\n- overall role score is still strong at 0.17\n\n3. JD Gap Reasoning\nComputer Graphics marked as critical because:\n- high-importance requirement in the job description (JD score: 6.50)\n- strong gap due to little or no prior experience (gap: 6.50, resume score: 0.00)\n- classified as Critical Gap by the gap engine\n- still remains a gap after seniority normalization (factor: 0.72)\n\nCuda marked as a gap because:\n- important requirement in the job description (JD score: 5.97)\n- clear gap because the candidate profile shows almost no prior evidence (gap: 5.97, resume score: 0.00)\n- classified as Moderate Gap by the gap engine\n- still remains a gap after seniority normalization (factor: 0.72)\n\nLarge Language Models marked as a gap because:\n- important requirement in the job description (JD score: 5.97)\n- clear gap because the candidate profile shows almost no prior evidence (gap: 5.97, resume score: 0.00)\n- classified as Moderate Gap by the gap engine\n- still remains a gap after seniority normalization (factor: 0.72)\n\n4. Contrast Reasoning\nTensorrt not selected in the current roadmap because:\n- it still has high JD importance (score: 5.97)\n- the candidate profile currently shows no prior evidence for it (signal: 0.00)\n- not selected now because it is not strongly connected to the current learning path\n- better revisited after the connected core path is completed\n\nAndroid not selected in the current roadmap because:\n- it still has high JD importance (score: 5.27)\n- the candidate profile currently shows no prior evidence for it (signal: 0.00)\n- not selected now because it is not strongly connected to the current learning path\n- better revisited after the connected core path is completed\n\nOperating Systems not selected in the current roadmap because:\n- it still has high JD importance (score: 5.27)\n- the candidate profile currently shows no prior evidence for it (signal: 0.00)\n- not selected now because it is not strongly connected to the current learning path\n- better revisited after the connected core path is completed\n"
+  "report_text": "Reasoning Trace\n\nEvery recommendation in our system is explainable - we do not just give outputs, we show the reasoning behind them.\n\nOverall JD Judgement\nOverall JD judgement: Not Qualified. Coverage is 27.49% across 14 evaluated JD skills.\n- overall JD coverage from Module 4 gap analysis is 27.49%\n- 1 critical gap and 10 moderate gaps remain\n- 8 JD skills are still fully missing, while only 2 skills are good matches\n- current evidence is below the level expected by this JD\n\nDecision Perspective\n- Best-fit role from resume: AI Engineer\n- Target JD perspective: Unknown\n- Roadmap policy: JD alignment first, role support second.\n- Primary roadmap favors JD alignment first whenever direct JD gap evidence is available.\n\nAll JD Gaps With Priority\n- 1. Computer Graphics - top priority | Critical Gap | gap score: 6.50 | JD score: 6.50 | status: missing\n- 2. Cuda - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing\n- 3. Large Language Models - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing\n- 4. Tensorrt - important | Moderate Gap | gap score: 5.97 | JD score: 5.97 | status: missing\n- 5. Deep Learning - important | Moderate Gap | gap score: 5.56 | JD score: 5.56 | status: missing\n- 6. Android - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing\n- 7. Operating Systems - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing\n- 8. Signal Processing - important | Moderate Gap | gap score: 5.27 | JD score: 5.27 | status: missing\n- 9. C - important | Moderate Gap | gap score: 3.87 | JD score: 5.81 | status: partial_match\n- 10. Artificial Intelligence - important | Moderate Gap | gap score: 3.53 | JD score: 5.33 | status: partial_match\n- 11. Linux - important | Moderate Gap | gap score: 3.37 | JD score: 5.68 | status: partial_match\n- 12. LLMs - low priority | Slight Gap | gap score: 0.72 | JD score: 5.97 | status: partial_match\n\n1. Roadmap Reasoning\nDeep Learning selected first because:\n- priority skill in the target job requirements (score: 5.56)\n- no prior evidence of this skill appears in the candidate profile (signal: 0.00, gap: 5.56)\n- comes early in the learning path because later topics depend on it (weight: 2.00)\n- ranked highest due to strongest combined priority score (priority: 96.11)\n\nStatistics recommended in Phase 1 because:\n- required to advance toward the mapped role expectations (role score: 4.73)\n- no prior evidence of this skill appears in the candidate profile (signal: 0.00, gap: 4.73)\n- selected because it directly supports high-priority JD gaps like Deep Learning\n- forms the foundation for Deep Learning\n\nComputer Graphics recommended in Phase 1 because:\n- high importance in target job requirements (score: 6.50)\n- candidate profile shows no prior evidence for this skill (signal: 0.00, gap: 6.50)\n- directly closes a critical JD gap in Computer Graphics\n- retains meaningful path priority in the current roadmap (priority: 38.43)\n\n2. Profession Mapping Reasoning\nAI Engineer selected as best-fit profession because:\n- high overlap in 7 matched skills including Python, Computer Vision, and Machine Learning\n- 3 core skills already align with this role, including Machine Learning, Python, and LLMs\n- 2 core gaps remain, mainly Deep Learning and PyTorch\n- although AI Engineer is the closest fit from current resume evidence, the roadmap still prioritizes direct JD gaps first\n- selected as best-fit profession because it received the highest role score (0.34)\n\nNLP Engineer also matches because:\n- meaningful overlap in 5 matched skills including Python, RAG, and LLMs\n- 3 core skills already align with this role, including NLP, Python, and LLMs\n- 1 core gap remains, mainly Transformers\n- overall role score is still strong at 0.29\n\nData Scientist also matches because:\n- high overlap in 8 matched skills including Python, Machine Learning, and Data Analysis\n- 2 core skills already align with this role, including Python and Data Analysis\n- 3 core gaps remain, mainly Statistics and Probability\n- role alignment score remains competitive at 0.28\n\n3. JD Gap Reasoning\nComputer Graphics marked as critical because:\n- high-importance requirement in the job description (JD score: 6.50)\n- strong gap due to little or no prior experience (gap: 6.50, resume score: 0.00)\n- classified as Critical Gap by the gap engine\n- still remains a gap after seniority normalization (factor: 0.72)\n\nCuda marked as a gap because:\n- important requirement in the job description (JD score: 5.97)\n- clear gap because the candidate profile shows almost no prior evidence (gap: 5.97, resume score: 0.00)\n- classified as Moderate Gap by the gap engine\n- still remains a gap after seniority normalization (factor: 0.72)\n\nLarge Language Models marked as a gap because:\n- important requirement in the job description (JD score: 5.97)\n- clear gap because the candidate profile shows almost no prior evidence (gap: 5.97, resume score: 0.00)\n- classified as Moderate Gap by the gap engine\n- still remains a gap after seniority normalization (factor: 0.72)\n\n4. Contrast Reasoning\nAndroid not selected in the current roadmap because:\n- it still has high JD importance (score: 5.27)\n- the candidate profile currently shows no prior evidence for it (signal: 0.00)\n- not selected now because it is not strongly connected to the current learning path\n- better revisited after the connected core path is completed\n\nOperating Systems not selected in the current roadmap because:\n- it still has high JD importance (score: 5.27)\n- the candidate profile currently shows no prior evidence for it (signal: 0.00)\n- not selected now because it is not strongly connected to the current learning path\n- better revisited after the connected core path is completed\n\nSignal Processing not selected in the current roadmap because:\n- it still has high JD importance (score: 5.27)\n- the candidate profile currently shows no prior evidence for it (signal: 0.00)\n- not selected now because it is not strongly connected to the current learning path\n- better revisited after the connected core path is completed\n"
 }

@@ -6,15 +6,15 @@
     ],
     "mentions": 2,
     "contexts": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Mobile",
     "sub_category": "App Development",
     "sections": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ]
   },
   "artificial intelligence": {
@@ -120,15 +120,15 @@
     ],
     "mentions": 4,
     "contexts": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Systems",
     "sub_category": "Infrastructure",
     "sections": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ]
   },
   "llms": {
@@ -154,15 +154,15 @@
     ],
     "mentions": 2,
     "contexts": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Systems",
     "sub_category": "Infrastructure",
     "sections": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ]
   },
   "python": {
@@ -204,15 +204,15 @@
     ],
     "mentions": 2,
     "contexts": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ],
     "category": "hard_skill",
     "taxonomy_category": "Business",
     "sub_category": "Enterprise Tools",
     "sections": [
-      "experience",
-      "general"
+      "general",
+      "experience"
     ]
   },
   "tensorrt": {
