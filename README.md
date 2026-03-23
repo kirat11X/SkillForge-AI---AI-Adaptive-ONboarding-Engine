@@ -2,6 +2,14 @@
 SkillForge AI is an explainable onboarding engine that converts resumes and job descriptions into personalized, role-specific learning paths. Using hybrid skill extraction, gap analysis, and dependency-aware graphs, it delivers adaptive roadmaps with full transparency and structured outputs.
 
 > From resume parsing to career pathway generation — fully explainable, modular, and adaptive.
+
+
+## PPT link
+https://drive.google.com/file/d/1EpCydUbrOXY94vLyuazLnlp55W1p6VX5/view?usp=sharing
+
+## Video Explanation link
+https://drive.google.com/file/d/1LikGb5ScjNkGVfHYdX5TaH6OF_BJviT4/view?usp=drivesdk
+
 ## Problem
 Traditional onboarding is static: the same learning track is assigned to everyone, which wastes time for strong candidates and overwhelms beginners.
 
