@@ -1,0 +1,17 @@
+FROM python:3.11-slim
+WORKDIR /app
+
+# CPU-only torch keeps the image small; all-MiniLM-L6-v2 is tiny and runs fine on CPU.
+RUN pip install --no-cache-dir torch --index-url https://download.pytorch.org/whl/cpu
+
+COPY Website/backend/requirements.txt Website/backend/requirements.txt
+COPY ["pipeline/skillforge Ai/skillforge Ai/requirements.txt", "pipeline-requirements.txt"]
+RUN pip install --no-cache-dir -r Website/backend/requirements.txt -r pipeline-requirements.txt
+
+# Bake the embedding model into the image so /analyze works offline.
+RUN python -c "from sentence_transformers import SentenceTransformer; SentenceTransformer('all-MiniLM-L6-v2')"
+
+COPY Website Website
+COPY pipeline pipeline
+EXPOSE 8000
+CMD ["uvicorn", "backend.main:app", "--app-dir", "Website", "--host", "0.0.0.0", "--port", "8000"]
